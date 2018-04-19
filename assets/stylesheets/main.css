@@ -21,7 +21,7 @@
 
 body, html {
     height: 100%;
-    background-image: url('http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/26812/web.jpg');
+    background-image: url('https://media.licdn.com/media/gcrc/dms/image/C4E12AQH63bbixK68FA/article-cover_image-shrink_720_1280/0?e=2123312400&v=beta&t=9nRILxcTxtVq85FVGvLwnT3oLO0Cv0fUH2rRqvGQHws');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body, html {
 .intro-box {
   background-color: black;
   border-radius: 25px;
-  border: 1px solid darkgray;
+  border: 1px solid white;
   color: white;
   margin-top: 15%;
   margin-bottom: 15%;
@@ -46,7 +46,8 @@ body, html {
 }
 
 .dark-row {
-  background-color: #802b00;
+  background-color: #000033;
+  border: 1px solid white;
   padding: 25px;
   color: white;
 }
@@ -124,7 +125,7 @@ body, html {
 }
 
 .span-link {
-  color: orange;
+  color: lightblue;
 }
 
 h1, h2, h3, h4, h5 {
