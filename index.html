@@ -20,6 +20,7 @@
   
   <body>
   
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,47 +45,44 @@
       </div><!-- /.container-fluid -->
     </nav>
     
-    <div class="row">
-      <span id="about"></span>
-      <div class="container col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 intro-box">
+    <!-- Flex container for portfolio sections -->
+    <section class="container">
+      <!-- Intro Box -->
+      <article class="intro-box center" id="about">
         <h1 class="text-center">Adventures of the Penguin Phoenix</h1>
         <hr>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>By day ...</h3>
-            <p>I am a system administrator thriving at the intersection of regulated utility business process, database administration, and system configuration.</p>
-          </div>
-          <div class="col-md-6">
-            <h3 class="text-right">By night ...</h3>
-            <p class="text-right">I'm usually tinkering with data science or with web design. I'm currently exploring HTML, CSS, JavaScript, jQuery, and Bootstrap. I am a freeCodeCamp student and a graduate of TechTalentSouth's Intro to Web Design.</p>
-          </div>
+        <div>
+          <h3>By day ...</h3>
+          <p>I am a system administrator thriving at the intersection of regulated utility business process, database administration, and system configuration.</p>
+        </div>
+        <div>
+          <h3 class="text-right">By night ...</h3>
+          <p class="text-right">I'm usually tinkering with data science or with web design. I'm currently exploring responsive design, service workers and other offline-first strategies, and the fetch API.</p>
         </div>
         <hr>
-        <div class="row">
-          <p class="text-center">Check out my portfolio and get in touch with me at the links below.</p> 
-          <img src="https://pbs.twimg.com/profile_images/848588622471340032/vs03SSiK_400x400.jpg" class="circle-image">
+        <div>
+          <p>Check out my portfolio and get in touch with me at the links below.</p>
+          <img src="assets/images/skull.jpg" class="circle-image">
         </div>
-      </div>
-    </div>
-    
-    <div class="row" id="portfolio">
-      <div class="container dark-row col-md-10 col-md-offset-1">
-        <h1 class="text-center">Portfolio</h1>
+      </article>
+
+      <!-- portfolio -->
+      <article id="portfolio" class="container dark-row">
+
+        <h1 class="text-center full-width">Portfolio</h1>
         
-        <div class="row">
-            <!-- #1: Tribute Page -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">Willie McGee</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://codepen.io/ewotawa/full/dzbrvE/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row div -->
-              <div class="caption">
+        <!-- List of portfolio items -->
+        <ul class="portfolio-list">
+          
+          <li>
+            <!-- Tribute Page -->
+            <h3 class="text-center thumb-box">Willie McGee</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://codepen.io/ewotawa/full/dzbrvE/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
                 <br>
                 <p>I created this project for my freeCodeCamp Tribute Page assignment.
                 <p>The page functionality features HTML, CSS, and Bootstrap. The content profiles my favorite baseball player.</p>
@@ -92,156 +90,141 @@
                   <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/dzbrvE/') type="button" value="Launch Website">
                   <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
                 </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
-  
-            <!-- #2: Meet the Mighty Five -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">Meet the Mighty Five</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://ewotawa.github.io/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row -->
-              <div class="caption">
-                <br>
-                <p>I created this project during my Intro to Web Design course from Tech Talent South.</p>
-                <p>The site features HTML, CSS, jQuery, JavaScript, and Bootstrap for its functionality. Its content celebrates the music of some of my favorite Russian classical composers.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.techtalentsouth.com/') type="button" value="Visit TechTalentSouth">
-                </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
-            
-            <br>
-      
-            <!-- #3: Jocko Botcast -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">JOCKO BOTCAST</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://ewotawa.github.io/jocko-botcast/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row div -->
-              <div class="caption">
-                <br>
-                <p>I built the JOCKO BOTCAST to complete my random quote generator assignment for freeCodeCamp. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/jocko-botcast/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('http://jockopodcast.com/') type="button" value="Visit Jocko Podcast">
-                </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
+              </div>
+          </li>
 
-            <!-- #4: Weather App -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">Weather App</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://ewotawa.github.io/weather-app/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row -->
-              <div class="caption">
-                <br>
-                <p>This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data. I decided to revamp this page in May 2018 to practice concepts I was learning in Udacty's Mobile Web Specialist Nanodegree program. You can access both versions of the site below.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/weather-app/') type="button" value="Launch Updated Website">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/qPpwaK/') type="button" value="Launch Original Website">
-                </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
+          
+          <li>
+            <!-- Meet the Mighty Five -->
+            <h3 class="text-center thumb-box">Meet the Mighty Five</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://ewotawa.github.io/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
+              <br>
+              <p>I created this project during my Intro to Web Design course from Tech Talent South.</p>
+              <p>The site features HTML, CSS, jQuery, JavaScript, and Bootstrap for its functionality. Its content celebrates the music of some of my favorite Russian classical composers.</p>
+              <form>
+                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/') type="button" value="Launch Website">
+                <input class="btn btn-default" onclick=window.open('https://www.techtalentsouth.com/') type="button" value="Visit TechTalentSouth">
+              </form>
+            </div>
+          </li>
 
-            <br>
-      
-            <!-- #5: Wikipedia Search -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">Wikipedia Search</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://codepen.io/ewotawa/full/PJyKOW/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row div -->
-              <div class="caption">
-                <br>
-                <p>This pen uses Javascript to render search results from the Wikipedia API.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PJyKOW/') type="button" value="Launch Website">
-                </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
 
-            <!-- #6: Weather App -->
-            <div class="col-md-6">
-              <h3 class="thumb-box text-center">8-Bit Mario Star Animation</h3>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="thumbnail-container">
-                      <div class="thumbnail">
-                        <iframe src="https://codepen.io/ewotawa/full/aLGZRO/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-                      </div>
-                    </div>
-                </div> <!-- col -->
-              </div> <!-- row -->
-              <div class="caption">
+          <li>
+            <!-- Jocko Botcast -->
+            <h3 class="text-center thumb-box">JOCKO BOTCAST</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://ewotawa.github.io/jocko-botcast/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
+              <br>
+              <p>I built the JOCKO BOTCAST to complete my random quote generator assignment for freeCodeCamp. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.</p>
+              <form>
+                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/jocko-botcast/') type="button" value="Launch Website">
+                <input class="btn btn-default" onclick=window.open('http://jockopodcast.com/') type="button" value="Visit Jocko Podcast">
+              </form>
+            </div>
+          </li>
+
+
+          <li>
+            <!-- Weather App -->
+            <h3 class="text-center thumb-box">Weather App</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://ewotawa.github.io/weather-app/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
+              <br>
+              <p>This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data. I decided to revamp this page in May 2018 to practice concepts I was learning in Udacty's Mobile Web Specialist Nanodegree program. You can access both versions of the site below.</p>
+              <form>
+                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/weather-app/') type="button" value="Launch Updated Website">
+                <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/qPpwaK/') type="button" value="Launch Original Website">
+              </form>
+            </div>
+          </li>
+
+
+          <li>
+            <!-- Weather App -->
+            <h3 class="text-center thumb-box">Wikipedia Search</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://codepen.io/ewotawa/full/PJyKOW/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
+              <br>
+              <p>This pen uses Javascript to render search results from the Wikipedia API.</p>
+              <form>
+                <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PJyKOW/') type="button" value="Launch Website">
+              </form>
+            </div> 
+          </li>
+
+
+          
+          <li>
+            <!-- 8-bit Mario -->
+            <h3 class="text-center thumb-box">8-Bit Mario Star Animation</h3>
+            <div class="thumbnail-container">
+              <div class="thumbnail">
+                <iframe src="https://codepen.io/ewotawa/full/aLGZRO/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+              </div>
+            </div>
+            <div class="caption">
                 <br>
                 <p>A CSS-driven animation of 8-bit Mario with his star superpower.</p>
                 <form>
                   <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/aLGZRO/') type="button" value="Launch Website">
                 </form>
-              </div> <!-- caption -->
-            </div> <!-- col -->
+              </div>
+          </li>
 
-          </div> <!-- container -->
-        </div> <!-- inner row -->
+
+        </ul>
         
-      </div> <!-- container dk gr-->
-    </div> <!-- outer row -->
-  
-    <div class="row">
-      <span id="contact"></span>
-      <div class="container col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 intro-box">
+      </article>
+
+      <article class="intro-box center" id="about">
         <h1 class="text-center">Contact</h1>
         <hr>
-        <div class="row">
-          <div class="col-md-12">
-            <p>Feel free to drop me a line from this site. You can get in touch with me through the social media links below.</p>
-          </div> <!--col-->
-            <br>
-            <div class="row text-center">
-              <p onclick=window.open('https://www.freecodecamp.org/ewotawa') class="fa fa-free-code-camp fa-contact"></p>
-              <p onclick=window.open('https://codepen.io/ewotawa/') class="fa fa-codepen fa-contact"></p>
-              <p onclick=window.open('https://github.com/ewotawa') class="fa fa-github fa-contact"></p>
-              <p onclick=window.open('https://www.linkedin.com/in/elizabethwotawa/') class="fa fa-linkedin fa-contact"></p>
-              <p onclick=window.open('https://mobile.twitter.com/PenguinPhoenixE') class="fa fa-twitter fa-contact"></p>
-              <br>
-            </div>
+        <p>Feel free to drop me a line from this site. You can get in touch with me through the social media links below.</p>
+        <div class="row text-center">
+          <p onclick=window.open('https://www.freecodecamp.org/ewotawa') class="fa fa-free-code-camp fa-contact" role="button"></p>
+          
+          <p onclick=window.open('https://codepen.io/ewotawa/') class="fa fa-codepen fa-contact" role="button"></p>
+          
+          <p onclick=window.open('https://github.com/ewotawa') class="fa fa-github fa-contact" role="button"></p>
+          
+          <p onclick=window.open('https://www.linkedin.com/in/elizabethwotawa/') class="fa fa-linkedin fa-contact" role="button"></p>
+          
+          <p onclick=window.open('https://mobile.twitter.com/PenguinPhoenixE') class="fa fa-twitter fa-contact" role="button"></p>
+
+          <p onclick=window.open('https://medium.com/@ewotawa') class="fa fa-medium fa-contact" role="button"></p>
+
+          <br>
         </div>
-      </div> <!--container-->
-    </div> <!--outer row-->
-  
+      </article>
+
+
+    </section>
+    
+
+
+
     <footer>
-      <div class="row dark-row">
-        <div class="container col-md-10 col-md-offset-1">
+      <div class="dark-row-footer" id="contact">
+        <div class="container">
           <p>A <span class="fa fa-coffee"></span>-fueled project by Elizabeth Wotawa <span class="fa fa-hand-spock-o"></span></p>
           <br>
-          <!-- <p><small>Background image: <span class="span-link" onclick=window.open('http://hubblesite.org/image/3486/gallery')>STScI-2015-05</span> from <span onclick=window.open('http://hubblesite.org/') class="span-link">HubbleSite</span>.</small></p> -->
           <p><small><i class="fa fa-copyright" aria-hidden="true"></i> 2017. All Rights Reserved.</small></p>
         </div> <!--container-->
       </div> <!-- row -->

@@ -20,8 +20,8 @@
 
 
 body, html {
-    height: 100%;
-    background-image: url('https://media.licdn.com/media/gcrc/dms/image/C4E12AQH63bbixK68FA/article-cover_image-shrink_720_1280/0?e=2123312400&v=beta&t=9nRILxcTxtVq85FVGvLwnT3oLO0Cv0fUH2rRqvGQHws');
+    width: 99%;
+    background-image: url('../images/background_homepage.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@ body, html {
   margin-top: 15%;
   margin-bottom: 15%;
   padding: 25px;
+  width: 70%;
 }
 
 .align-right {
@@ -48,8 +49,20 @@ body, html {
 .dark-row {
   background-color: #000033;
   border: 1px solid white;
-  padding: 25px;
+  /*padding: 25px;*/
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.dark-row-footer {
+  background-color: #000033;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
 }
 
 .circle-image {
@@ -81,6 +94,7 @@ body, html {
 .thumb-box {
   background-color: black;
   padding: 2px;
+  color: white;
 }
 
 /*  https://medium.com/@jamesfuthey/simulating-the-creation-of-website-thumbnail-screenshots-using-iframes-7145269891db  */
@@ -130,4 +144,57 @@ body, html {
 
 h1, h2, h3, h4, h5 {
   font-family: 'Cardo', serif;
+}
+
+
+
+
+/* Responsive Layout */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Responsive list items */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.portfolio-list-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list li {
+  color: black;
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: calc(1200px * 0.25);
+}
+
+.portfolio-list li p {
+  margin: 5px;
+}
+
+.portfolio-list form input {
+  margin: 5px;
 }
