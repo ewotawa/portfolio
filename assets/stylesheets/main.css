@@ -65,11 +65,15 @@ body, html {
   padding: 10px;
 }
 
+#credentials {
+  margin-top: 15%;
+}
+
 .circle-image {
   display: block;
   border: 1px solid darkgray;
   border-radius: 50%;
-  width: 10%;
+  width: 65px;
   margin: auto;
 }
 
@@ -146,7 +150,9 @@ h1, h2, h3, h4, h5 {
   font-family: 'Cardo', serif;
 }
 
-
+.cred {
+  width: 100%;
+}
 
 
 /* Responsive Layout */
@@ -197,4 +203,21 @@ h1, h2, h3, h4, h5 {
 
 .portfolio-list form input {
   margin: 5px;
+}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 375px ) {
+  .intro-box {
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+ .dark-row {
+    width: auto;
+  }
+ 
 }
