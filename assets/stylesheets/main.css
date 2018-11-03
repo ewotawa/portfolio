@@ -1,3 +1,7 @@
+ul {
+  list-style-type:none;
+}
+
 .navbar {
   background-color: black;
   border: black;
@@ -54,6 +58,16 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+}
+
+.dark-orange-row {
+  background-color: #cc6600;
+  border: 1px solid white;
+  /*padding: 25px;*/
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 .dark-row-footer {
