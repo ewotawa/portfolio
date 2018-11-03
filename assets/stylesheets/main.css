@@ -8,7 +8,7 @@ ul {
 }
 
 /* Styles for navigation row */
-    .main-nav {
+    #main-nav {
         position: fixed;
         top: 0;
         width: 100%;
