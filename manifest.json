@@ -3,12 +3,12 @@
 	"name": "Penguin Phoenix Portfolio",
 	"icons": [
 		{
-			"src": "/assets/images/skull192.jpg",
+			"src": "/assets/images/skull192.png",
 			"type": "image/jpg",
 			"sizes": "192x192"
 		},
 		{
-			"src": "/assets/images/skull512.jpg",
+			"src": "/assets/images/skull512.png",
 			"type": "image/jpg",
 			"sizes": "512x512"
 		}
