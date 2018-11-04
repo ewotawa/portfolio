@@ -15,7 +15,7 @@ var urlsToCache = [
     '/assets/images/mpp.png',
     '/assets/images/pytorch.png',
     '/assets/images/skull.jpg',
-    '/assets/images/skul192.jpg',
+    '/assets/images/skull192.jpg',
     '/assets/images/skull512.jpg',
     '/assets/js/idb.js',
     '/assets/js/main.js',
