@@ -11,6 +11,7 @@
 * https://css-tricks.com/snippets/jquery/fit-iframe-to-content/
 * https://github.community/t5/How-to-use-Git-and-GitHub/push-declined-due-to-email-privacy-restrictions/td-p/7660
 * https://pages.github.com/
+* https://developers.google.com/web/fundamentals/app-install-banners/
 
 
 
