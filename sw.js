@@ -60,7 +60,7 @@ self.addEventListener('hashchange', function(event) {
 //handle fetch events
 self.addEventListener('fetch', function(event) {
     // add console logging for event requests
-    //console.log(event.request);
+    console.log(event.request);
 
     //serve static content from cache
     event.respondWith(
