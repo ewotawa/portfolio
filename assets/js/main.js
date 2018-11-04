@@ -51,6 +51,7 @@ let deferredPrompt;
 var btnAdd = document.getElementById('btnAdd');
 
 window.addEventListener('beforeinstallprompt', (e) => {
+  console.log('beforeinstallprompt heard');
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
   // Stash the event so it can be triggered later.
@@ -63,6 +64,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 /* Show the prompt */
 btnAdd.addEventListener('click', (e) => {
+  console.log('click event heard');
   // hide our user interface that shows our A2HS button
   btnAdd.style.display = 'none';
   // Show the prompt
@@ -81,7 +83,7 @@ btnAdd.addEventListener('click', (e) => {
 
 /* Determine if the app was successfully installed */
 window.addEventListener('appinstalled', (evt) => {
-  app.logEvent('a2hs', 'installed');
+  console.log('a2hs installed');
 });
 
 
