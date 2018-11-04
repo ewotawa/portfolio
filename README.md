@@ -9,6 +9,8 @@
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
 * https://medium.com/@jamesfuthey/simulating-the-creation-of-website-thumbnail-screenshots-using-iframes-7145269891db
 * https://css-tricks.com/snippets/jquery/fit-iframe-to-content/
+* https://github.community/t5/How-to-use-Git-and-GitHub/push-declined-due-to-email-privacy-restrictions/td-p/7660
+* https://pages.github.com/
 
 
 

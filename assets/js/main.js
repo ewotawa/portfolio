@@ -1,10 +1,3 @@
-/* smooth scroll */
-
-document.addEventListener('click', function(event) {
-    let targetId = event.target.id;
-    console.log(targetId);
-    targetId.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-});
 
 /* call resizeIframes function */
 
