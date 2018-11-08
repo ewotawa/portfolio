@@ -63,30 +63,28 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
     // Update UI to let the user know they can add to home screen
     addBtn.style.display = 'block';
-    
-    var homeScrBtn = document.getElementById('homescreen');
-    
-    homeScrBtn.addEventListener('click', homeScreen(e));
-    
-    // set a click handler for the button
-    function homeScreen() {
-        console.log('click event for A2HS');
-        // hide user interface that shows A2HS button
-        homeScrBtn.style.display = 'none';
-        // show the prompt
-        deferredPrompt.prompt();
-        // Wait for the user to respond to the prompt
-        deferredPrompt.userChoice.then((choiceResult) => {
-            if (choiceResult.outcome === 'accepted') {
-                console.log('User accepted the A2HS prompt');
-            } else {
-                console.log('User dismissed the A2HS prompt');
-            }
-            deferredPrompt = null;
-        });
-    
-    }
+    return deferredPrompt;
 });
 
 
+var homeScrBtn = document.getElementById('homescreen');
+
+// set a click handler for the button
+function homeScreen(deferredPrompt) {
+    console.log('click event for A2HS');
+    // hide user interface that shows A2HS button
+    homeScrBtn.style.display = 'none';
+    // show the prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the A2HS prompt');
+        } else {
+            console.log('User dismissed the A2HS prompt');
+        }
+        deferredPrompt = null;
+    });
+
+}
 
