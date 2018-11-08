@@ -64,6 +64,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     
     // set a click handler for the button
     addBtn.addEventListener('click', (e) => {
+        console.log('click event for A2HS');
         // hide user interface that shows A2HS button
         addBtn.style.display = 'none';
         // show the prompt
