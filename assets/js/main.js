@@ -67,11 +67,12 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 
-var homeScrBtn = document.getElementById('homescreen');
 
 // set a click handler for the button
 function homeScreen(deferredPrompt) {
     console.log('click event for A2HS');
+    var homeScrBtn = document.getElementById('homescreen');
+    console.log(homeScrBtn);
     // hide user interface that shows A2HS button
     homeScrBtn.style.display = 'none';
     // show the prompt
