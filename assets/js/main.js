@@ -89,7 +89,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 function homeScreen() {
     console.log('click event for A2HS');
-    var homeScrBtn = document.getElementbyId('homescreen');
+    var homeScrBtn = document.getElementById('homescreen');
     // hide user interface that shows A2HS button
     homeScrBtn.style.display = 'none';
     // show the prompt
