@@ -53,6 +53,8 @@ const addBtn = document.querySelector('.add-button');
 // set initial display of button to none: PWA will not be available for install until it follows the A2HS criteria
 addBtn.style.display = 'none';
 
+
+    
 // Use a handler to handle the installation
 window.addEventListener('beforeinstallprompt', (e) => {
     // Prevent Chrome 67 and earlier from automatically showing the prompt
@@ -61,8 +63,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
     // Update UI to let the user know they can add to home screen
     addBtn.style.display = 'block';
-    
-    var homeScreen = document.getElementbyId('homescreen');
     
     // set a click handler for the button
     /*
@@ -84,6 +84,8 @@ window.addEventListener('beforeinstallprompt', (e) => {
     });
     */
 });
+
+var homeScreen = document.getElementbyId('homescreen');
 
 function homeScreen() {
     console.log('click event for A2HS');
