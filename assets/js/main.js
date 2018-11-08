@@ -64,10 +64,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Update UI to let the user know they can add to home screen
     addBtn.style.display = 'block';
     
+    var homeScrBtn = document.getElementById('homescreen');
+    
+    homeScrBtn.addEventListener('click', homeScreen(e));
+    
     // set a click handler for the button
     function homeScreen() {
         console.log('click event for A2HS');
-        var homeScrBtn = document.getElementById('homescreen');
         // hide user interface that shows A2HS button
         homeScrBtn.style.display = 'none';
         // show the prompt
