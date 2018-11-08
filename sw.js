@@ -44,7 +44,7 @@ self.addEventListener('activate', function(event) {
 });
 
 // add elements to the cache when the page's hash changes
-/* 
+ 
 self.addEventListener('hashchange', function(event) {
     console.log('window hash has changed. Add new assets to the cache.');
     event.waitUntil(
@@ -55,7 +55,7 @@ self.addEventListener('hashchange', function(event) {
             })
     );
 }, false);
-*/
+
 
 //handle fetch events
 self.addEventListener('fetch', function(event) {
