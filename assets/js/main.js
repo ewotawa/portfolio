@@ -65,6 +65,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     var homeScreen = document.getElementbyId('homescreen');
     
     // set a click handler for the button
+    /*
     homeScreen.addEventListener('click', (e) => {
         console.log('click event for A2HS');
         // hide user interface that shows A2HS button
@@ -81,4 +82,23 @@ window.addEventListener('beforeinstallprompt', (e) => {
             deferredPrompt = null;
         });
     });
+    */
 });
+
+function homeScreen() {
+    console.log('click event for A2HS');
+    // hide user interface that shows A2HS button
+    homeScreen.style.display = 'none';
+    // show the prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the A2HS prompt');
+        } else {
+            console.log('User dismissed the A2HS prompt');
+        }
+        deferredPrompt = null;
+    });
+
+}
