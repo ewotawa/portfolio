@@ -42,4 +42,40 @@ resizeIframes();
 
 
 
+/* add to home screen */
 
+/* handle the install */
+
+// declare a deferredPrompt variable
+let deferredPrompt;
+// get a reference to install button
+const addBtn = document.querySelector('.add-button');
+// set initial display of button to none: PWA will not be available for install until it follows the A2HS criteria
+addBtn.style.display = 'none';
+
+// Use a handler to handle the installation
+window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevent Chrome 67 and earlier from automatically showing the prompt
+    e.PreventDefault();
+    // Stash the event so it can be triggered later
+    deferredPrompt = e;
+    // Update UI to let the user know they can add to home screen
+    addBtn.style.display = 'block';
+    
+    // set a click handler for the button
+    addBtn.addEventListener('click', (e) => {
+        // hide user interface that shows A2HS button
+        addBtn.style.display = 'none';
+        // show the prompt
+        deferredPrompt.prompt();
+        // Wait for the user to respond to the prompt
+        deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+                console.log('User accepted the A2HS prompt');
+            } else {
+                console.log('User dismissed the A2HS prompt');
+            }
+            deferredPrompt = null;
+        });
+    });
+});
