@@ -22,7 +22,7 @@ resizeIframes();
         	
         	if (sUsrAg.indexOf("Safari") > -1 || sUsrAg.indexOf("Opera") > -1) { 
         	
-        	   iFrames.load(function(){
+        	   iFrames.load(function() { 
         	       setTimeout(iResize, 0);
                });
             
