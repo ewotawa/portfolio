@@ -82,6 +82,7 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
+  min-width: 310px;
   margin-top: 15%;
   margin-bottom: 15%;
 }
