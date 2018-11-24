@@ -58,6 +58,8 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 .dark-orange-row {
@@ -68,7 +70,22 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
+
+.dark-rose-row {
+  background-color: #7f0337;
+  border: 1px solid white;
+  /*padding: 25px;*/
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
 
 .dark-row-footer {
   background-color: #000033;
