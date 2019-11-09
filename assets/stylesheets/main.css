@@ -93,6 +93,18 @@ body, html {
   margin-bottom: 15%;
 }
 
+.white-row {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 25px;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  width: 90%;
+  min-width: 310px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
 
 .dark-row-footer {
   background-color: #000033;
@@ -250,6 +262,12 @@ h1, h2, h3, h4, h5 {
   margin-right: auto;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+/* leave list bullets on for articles */
+
+.article li{
+  list-style-type: circle;
 }
 
 
