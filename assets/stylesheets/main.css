@@ -289,6 +289,14 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/* Standardize buttons */
+.btn-default {
+    color: #333;
+    margin: 5px;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 375px ) {
