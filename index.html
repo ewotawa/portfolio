@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Elizabeth Wotawa's portfolio page">
-    <meta name="keywords" content="Wotawa, Elizabeth Wotawa, Penguin Phoenix, PytorchUdacityScholar, GrowWithGoogle, GoogleUdacityScholars, UdacityFacebookScholar, 60DaysofUdacity">
+    <meta name="keywords" content="Wotawa, Elizabeth Wotawa, Penguin Phoenix, PytorchUdacityScholar, GrowWithGoogle, GoogleUdacityScholars, UdacityFacebookScholar, 60DaysofUdacity, grapevineplots">
     <meta name="author" content="Elizabeth Wotawa">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--font awesome icon library-->
@@ -22,577 +22,623 @@
 
     <!--Individual Stylesheet-->
     <link rel="stylesheet" href="assets/stylesheets/main.css">
-    
+
     <!-- Service Worker Manifest -->
     <link rel="manifest" href="manifest.json">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128951767-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'UA-128951767-1');
     </script>
 
 
   </head>
-  
+
   <body id="body">
-  
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="main-nav">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Penguin Phoenix</a>
-        </div>
-  
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#credentials">Credentials</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    
-    <!-- Flex container for portfolio sections -->
-    <section class="container">
-      <!-- Intro Box -->
-      <article class="intro-box center" id="about">
-        <h1 class="text-center">Adventures of the Penguin Phoenix</h1>
-        <hr>
-        <div>
-          <h3>By day ...</h3>
-          <p>I turn coffee into configuration and find better ways to do things with data.</p>
-        </div>
-        <div>
-          <h3 class="text-right">By night ...</h3>
-          <p class="text-right">I tinker with web development and data science.</p>
-        </div>
-        <hr>
-        <div>
-          <p>Check out my portfolio and get in touch with me at the links below.</p>
-          <img src="assets/images/skull.jpg" class="circle-image">
-        </div>
-      </article>
 
-      <!-- portfolio -->
-      <article id="portfolio" class="container dark-row">
+    <div class="background-image">
 
-        <h1 class="text-center full-width">Portfolio</h1>
-        
-        <!-- List of portfolio items -->
-        <ul class="portfolio-list">
-          
-          <li>
-            <!-- Tribute Page -->
-            <h3 class="text-center thumb-box">Willie McGee</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/willie-mcgee/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="main-nav">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Penguin Phoenix</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#credentials">Credentials</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <!-- Flex container for portfolio sections -->
+      <section class="container">
+        <!-- Intro Box -->
+        <article class="intro-box center" id="about">
+          <h1 class="text-center">Adventures of the Penguin Phoenix</h1>
+          <hr>
+          <div>
+            <h3>Who is the Penguin Phoenix?</h3>
+            <p>The Penguin Phoenix is my nickname for my Toshiba Satellite M20. My adventures into tech started when I installed Linux LXLE on that laptop. This laptop supported my first experiments with web development and data science.</p>
+            <p>Several years later, I'm making progress as an aspiring full-stack developer, something of a Penguin Phoenix in my own right.</p>
+          </div>
+          <br>
+          <div>
+            <h3 class="text-right">What's on this site?</h3>
+            <p class="text-right">I've organized a portfolio of my front-end, full-stack, and data science projects. I've also provided links to articles and video tutorials I've written and delivered.</p>
+          </div>
+          <hr>
+          <div>
+            <h3 class="text-right"></h3>
+            <p>Thanks for taking a look. You can get in touch with me at the links below.</p>
+            <img src="assets/images/skull.jpg" class="circle-image">
+          </div>
+        </article>
+
+        <!-- portfolio -->
+        <article id="portfolio" class="container dark-row">
+
+          <h1 class="text-center full-width">Portfolio</h1>
+
+          <!-- List of portfolio items -->
+          <ul class="portfolio-list">
+
+            <li class="project-tile">
+                <!-- Tribute Page -->
+              <section>
+                <div class="thumbnail-container">
+                  <div class="thumbnail">
+                    <iframe src="https://ewotawa.github.io/willie-mcgee/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                  </div>
+                </div>
+              </section>
+              <section class="caption">
+                <h2 class="title">Willie McGee</h2>
+                <article class="languages">
+                  <h2 class="fab fa-html5"></h2>
+                  <h2 class="fab fa-css3-alt"></h2>
+                  <h2 class="icon-flask"></h2>
+                </article>
+                <article class="description">
+                  <h4 class="fab fa-free-code-camp"> Build a Tribute Page</h4>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Tribute Page assignment.</p>
+                  <p>The page functionality features HTML and CSS. The content profiles my favorite baseball player.</p>
+                </article>
+                <article id="links" class="flex-box-wrap">
+                  <p class="flex-item" onclick=window.open('https://ewotawa.github.io/willie-mcgee/')>
+                    <i class="fas fa-link"></i>
+                     Link
+                  </p>
+                  <p class="flex-item" onclick=window.open('https://github.com/ewotawa/willie-mcgee')>
+                    <i class="fab fa-github"></i>
+                     GitHub
+                  </p>
+                  <p class="flex-item" onclick=window.open('https://codepen.io/ewotawa/full/WNwroBV')>
+                    <i class="fab fa-codepen"></i>
+                     CodePen
+                  </p>
+                </article>
+              </section>
+            </li>
+
+
+            <li>
+              <!-- Tribute Page -->
+              <h3 class="text-center thumb-box">Willie McGee</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/willie-mcgee/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>I created this project for my freeCodeCamp Responsive Web Design Tribute Page assignment.</p>
-                <p>The page functionality features HTML and CSS. The content profiles my favorite baseball player.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/willie-mcgee/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/WNwroBV') type="button" value="Preview on CodePen">
-                </form>
+              <div class="caption">
+                  <br>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Tribute Page assignment.</p>
+                  <p>The page functionality features HTML and CSS. The content profiles my favorite baseball player.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/willie-mcgee/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/WNwroBV') type="button" value="Preview on CodePen">
+                  </form>
+                </div>
+            </li>
+
+
+            <li>
+              <!-- Build a Survey Form -->
+              <h3 class="text-center thumb-box">Will Tom Eat It?</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/fcc-form/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-          </li>
+              <div class="caption">
+                  <br>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Build a Survey Form assignment.</p>
+                  <p>The page functionality features HTML and CSS. The content celebrates the <i>Will Tom Eat It?</i> segment on the tastytrade network.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-form/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/bGppvoP') type="button" value="Preview on CodePen">
+                    <input class="btn btn-default" onclick=window.open('https://www.tastytrade.com/tt/') type="button" value="Visit tastytrade">
+                  </form>
+                </div>
+            </li>
 
-          
-          <li>
-            <!-- Build a Survey Form -->
-            <h3 class="text-center thumb-box">Will Tom Eat It?</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/fcc-form/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+
+            <li>
+              <!-- Build a Product Landing Page -->
+              <h3 class="text-center thumb-box">Jack's Lanterns</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/fcc-product-landing-page/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>I created this project for my freeCodeCamp Responsive Web Design Build a Survey Form assignment.</p>
-                <p>The page functionality features HTML and CSS. The content celebrates the <i>Will Tom Eat It?</i> segment on the tastytrade network.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-form/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/bGppvoP') type="button" value="Preview on CodePen">
-                  <input class="btn btn-default" onclick=window.open('https://www.tastytrade.com/tt/') type="button" value="Visit tastytrade">
-                </form>
+              <div class="caption">
+                  <br>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Build a Product Landing Page assignment.</p>
+                  <p>The page functionality features HTML and CSS. Halloween is my favorite holiday.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-product-landing-page/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PoNNMGo') type="button" value="Preview on CodePen">
+                  </form>
+                </div>
+            </li>
+
+            <li>
+              <!-- Build a Technical Documentation Page -->
+              <h3 class="text-center thumb-box">The SeaMonkey Project</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/fcc-technical-doc/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-          </li>
+              <div class="caption">
+                  <br>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Build a Technical Documentation Page assignment.</p>
+                  <p>The page functionality features HTML, CSS, and JavaScript. I've been a fan of The SeaMonkey Project since the application came pre-installed with LXLE, the distribution I installed on my first Linux laptop.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-technical-doc/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/ExKgRBq') type="button" value="Preview on CodePen">
+                  </form>
+                </div>
+            </li>
 
-          
-          <li>
-            <!-- Build a Product Landing Page -->
-            <h3 class="text-center thumb-box">Jack's Lanterns</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/fcc-product-landing-page/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+            <li>
+              <!-- Build a Personal Portfolio Page -->
+              <h3 class="text-center thumb-box">Personal Portfolio Page</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/fcc-portfolio-page/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>I created this project for my freeCodeCamp Responsive Web Design Build a Product Landing Page assignment.</p>
-                <p>The page functionality features HTML and CSS. Halloween is my favorite holiday.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-product-landing-page/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PoNNMGo') type="button" value="Preview on CodePen">
-                </form>
-              </div>
-          </li>
+              <div class="caption">
+                  <br>
+                  <p>I created this project for my freeCodeCamp Responsive Web Design Build a Personal Portfolio Page assignment.</p>
+                  <p>The page functionality features HTML, CSS, and JavaScript. </p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-portfolio-page/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/mdPOvBd') type="button" value="Preview on CodePen">
+                  </form>
+                </div>
+            </li>
 
-          <li>
-            <!-- Build a Technical Documentation Page -->
-            <h3 class="text-center thumb-box">The SeaMonkey Project</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/fcc-technical-doc/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>I created this project for my freeCodeCamp Responsive Web Design Build a Technical Documentation Page assignment.</p>
-                <p>The page functionality features HTML, CSS, and JavaScript. I've been a fan of The SeaMonkey Project since the application came pre-installed with LXLE, the distribution I installed on my first Linux laptop.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-technical-doc/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/ExKgRBq') type="button" value="Preview on CodePen">
-                </form>
-              </div>
-          </li>
-
-          <li>
-            <!-- Build a Personal Portfolio Page -->
-            <h3 class="text-center thumb-box">Personal Portfolio Page</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/fcc-portfolio-page/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>I created this project for my freeCodeCamp Responsive Web Design Build a Personal Portfolio Page assignment.</p>
-                <p>The page functionality features HTML, CSS, and JavaScript. </p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/fcc-portfolio-page/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org') type="button" value="Visit freeCodeCamp">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/mdPOvBd') type="button" value="Preview on CodePen">
-                </form>
-              </div>
-          </li>
-
-         <li>
-            <!-- Meet the Mighty Five -->
-            <h3 class="text-center thumb-box">Meet the Mighty Five</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-              <br>
-              <p>I created this project during my Intro to Web Design course from Tech Talent South.</p>
-              <p>The site features HTML, CSS, jQuery, JavaScript, and Bootstrap for its functionality. Its content celebrates the music of some of my favorite Russian classical composers.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/') type="button" value="Launch Website">
-                <input class="btn btn-default" onclick=window.open('https://www.techtalentsouth.com/') type="button" value="Visit TechTalentSouth">
-              </form>
-            </div>
-          </li>
-
-
-          <li>
-            <!-- Jocko Botcast -->
-            <h3 class="text-center thumb-box">JOCKO BOTCAST</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/jocko-botcast/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-              <br>
-              <p>I built the JOCKO BOTCAST to complete my random quote generator assignment for freeCodeCamp. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/jocko-botcast/') type="button" value="Launch Website">
-                <input class="btn btn-default" onclick=window.open('http://jockopodcast.com/') type="button" value="Visit Jocko Podcast">
-              </form>
-            </div>
-          </li>
-
-
-          <li>
-            <!-- Weather App -->
-            <h3 class="text-center thumb-box">Weather App</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/weather-app/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-              <br>
-              <p>This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data. I decided to revamp this page in May 2018 to practice concepts I was learning in Udacty's Mobile Web Specialist Nanodegree program. You can access both versions of the site below.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/weather-app/') type="button" value="Launch Updated Website">
-              </form>
-            </div>
-          </li>
-
-
-          <li>
-            <!-- Wikipedia App -->
-            <h3 class="text-center thumb-box">Wikipedia Search</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/wikipedia-search/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-              <br>
-              <p>This pen uses Javascript to render search results from the Wikipedia API.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/wikipedia-search/') type="button" value="Launch Website">
-                <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PJyKOW/') type="button" value="Preview on CodePen">
-              </form>
-            </div> 
-          </li>
-
-
-          
-          <li>
-            <!-- 8-bit Mario -->
-            <h3 class="text-center thumb-box">8-Bit Mario Star Animation</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/eight-bit-mario/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>A CSS-driven animation of 8-bit Mario with his star superpower.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/eight-bit-mario/') type="button" value="Launch Website">
-                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/aLGZRO/') type="button" value="Preview on CodePen">
-                </form>
-            </div>
-          </li>
-
-
-
-          
-          <li>
-            <!-- Charlie's Links -->
-            <h3 class="text-center thumb-box">Charlie's Links</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://ewotawa.github.io/link_in_bio/" onload="this.style.opacity = 1" frameborder="0"></iframe>
-              </div>
-            </div>
-            <div class="caption">
-                <br>
-                <p>Link in Bio for my Instagram Account.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/link_in_bio/') type="button" value="Launch Website">
-                </form>
-              </div>
-          </li>
-
-        </ul>
-        
-      </article>
-
-
-
-
-      <!-- portfolio -->
-      <article id="credentials" class="container dark-orange-row">
-
-        <h1 class="text-center full-width">Credentials, Scholarships, and Nanodegrees</h1>
-        
-          
-        <!-- List of portfolio items -->
-        <ul class="portfolio-list">
-          
-          <li>
-            <!-- Microsoft Professional Program -->
-            <h3 class="text-center thumb-box">Microsoft Professional Program Data Science Certificate</h3>
-            <img class="cred" src="assets/images/mpp.png">
-            <div class="caption">
-              <br>
-              <p>During this program, offered by Microsoft on the edX platform, I explored data visualization and analysis in Excel and PowerBI, programming in R, and machine learning in Microsoft Azure ML.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.edx.org/microsoft-professional-program-data-science') type="button" value="Learn More">
-              </form>
-            </div> 
-          </li>
-
-          <li>
-            <!-- Grow with Google -->
-            <h3 class="text-center thumb-box">Grow with Google Challenge</h3>
-            <img class="cred" src="assets/images/gwg.png">
-            <div class="caption">
-              <br>
-              <p>I participated in this Google-sponsored Udacity Scholarship challenge in the Intermediate Web Developer path. I was one of 25,000 participants selected to compete for one of 1,000 scholarships to the Udacity Mobile Web Specialist Nanodegrees. I earned the nanodegree scholarship in January 2018.</p>
-              <p>#GrowWithGoogle #GoogleUdacityScholars</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.udacity.com/grow-with-google') type="button" value="Learn More">
-              </form>
-            </div> 
-          </li>
-
-          <li>
-            <!-- Udacity Mobile Web Specialist Nanodegree -->
-            <h3 class="text-center thumb-box">Udacity Mobile Web Specialist Nanodegree</h3>
-            <img class="cred" src="assets/images/udacity_nanodegree.png">
-            <div class="caption">
-              <br>
-              <p>This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship.</p>
-              <p>#GrowWithGoogle #GoogleUdacityScholars</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://confirm.udacity.com/XZPKTTCA') type="button" value="View Certificate">
-                <input class="btn btn-default" onclick=window.open('https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024') type="button" value="Learn More">
-                <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/mws-restaurant-stage-1') type="button" value="Final Project">
-              </form>
-            </div> 
-          </li>
-
-          <li>
-            <!-- Udacity PyTorch Challenge -->
-            <h3 class="text-center thumb-box">Udacity PyTorch Challenge</h3>
-            <img class="cred" src="assets/images/pytorch.png">
-            <div class="caption">
-              <br>
-              <p>I participated in the PyTorch Scholarship Challenge, sponsored by Udacity and Facebook, from November 2018 to January 2019. I learned how to build, to train, and to deploy state-of-the-art deep learning models with PyTorch.</p>
-              <p>#PytorchUdacityScholar</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.udacity.com/facebook-pytorch-scholarship') type="button" value="Learn More">
-                <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/udacity_pytorch_challenge') type="button" value="Final Project">
-              </form>
-            </div> 
-          </li>
-          
-          <li>
-            <!-- Udacity Secure and Private AI Challenge -->
-            <h3 class="text-center thumb-box">Udacity Secure and Private AI Challenge</h3>
-            <img class="cred" src="assets/images/secure-private-ai.png">
-            <div class="caption">
-              <br>
-              <p>I participated in the Secure and Private AI Scholarship Challenge, sponsored by Udacity and Facebook, from May to August 2019. I learned how to use distributed private data with differential privacy, federated learning, and encrypted computation techniques. I was selected for one of 300 follow-up Nanodegree scholarships.</p>
-              <p>I was part of the lead team for Project T-Shirt. We encouraged students to generate images using AI and machine learning techniques, such as style transfer or GAN. Students voted on their favorites, and we printed the top two images on swag such as t-shirts and mugs. Proceeds will be donated to charity. Please see the gallery below for more detail.</p>
-              <p>#UdacityFacebookScholar #60DaysofUdacity</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.udacity.com/facebook-AI-scholarship') type="button" value="Learn More">
-                <input class="btn btn-default" onclick=window.open('https://github.com/parthatom/GANonTshirtTutorial') type="button" value="Project T-Shirt">
-                <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/spaic_tshirt_gallery/') type="button" value="Image Gallery">
-              </form>
-            </div> 
-          </li>
-
-          <li>
-            <!-- Microsoft Azure Fundamentals -->
-            <h3 class="text-center thumb-box">Microsoft Azure Fundamentals (AZ-900)</h3>
-            <img class="cred" src="assets/images/az900.JPG">
-            <div class="caption">
-              <br>
-              <p>I earned the Microsoft Azure Fundamentals certification by passing the AZ-900 exam in July 2019. This exam covers the following skill areas:</p>
-              <ul>
-                <li>Azure</li>
-                <li>Cloud Data</li>
-                <li>Cloud Networking</li>
-                <li>Cloud Security</li>
-                <li>Cloud Services</li>
-                <li>Cloud Storage</li>
-                <li>Virtualization</li>
-              </ul>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.youracclaim.com/badges/c8e18533-7416-4e3f-b8c6-7c8e5c3c0cfc/public_url') type="button" value="View Credential">
-                <input class="btn btn-default" onclick=window.open('https://www.microsoft.com/en-us/learning/exam-AZ-900.aspx') type="button" value="Learn More">
-              </form>
-            </div> 
-          </li>
-          
-          <li>
-            <!-- IBM COBOL Programming with VSCode -->
-            <h3 class="text-center thumb-box">IBM COBOL Programming with VSCode</h3>
-            <img class="cred" src="assets/images/ibm-cobol-programming-with-vscode.png">
-            <div class="caption">
-              <br>
-              <p>As much fun as I've had learning new programming languages and platforms, I really enjoyed the chance to get back to the roots of computer science. I remember my dad sharing stories with me about working with COBOL and the Federal Reserve Bank of St. Louis mainframe system. This course offered a unique opportunity to see how those technologies are applied today.</p>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.youracclaim.com/badges/2ddbf15e-9e4a-41f5-86fc-362e6150a19a/public_url') type="button" value="View Credential">
-                <input class="btn btn-default" onclick=window.open('https://www.coursera.org/learn/cobol-programming-vscode?') type="button" value="Learn More">
-              </form>
-            </div> 
-          </li>
-        
-          <li>
-            <!-- freeCodeCamp Responsive Web Design -->
-            <h3 class="text-center thumb-box">freeCodeCamp Responsive Web Design</h3>
-            <img class="cred" src="assets/images/fcc_responsive_web_design.png">
-            <div class="caption">
-              <br>
-              <p>This certificate represents about 300 hours of coursework, covering the following topics:</p>
-              <ul>
-                <li>Basic HTML and HTML5</li>
-                <li>Basic CSS</li>
-                <li>Applied Visual Design</li>
-                <li>Applied Accessibility</li>
-                <li>Responsive Web Design Principles</li>
-                <li>CSS Flexbox</li>
-                <li>CSS Grid</li>
-                <li>Responsive Web Design Projects</li>
-              </ul>
-              <form>
-                <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org/certification/ewotawa/responsive-web-design') type="button" value="View Credential">
-                <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org/') type="button" value="Learn More">
-              </form>
-            </div> 
-          </li>
-
-        </ul>
-      </article>
-      
-      <!--published content-->
-      
-      <article id="publications" class="container dark-rose-row">
-        <h1 class="text-center full-width">Publications</h1>
-        
-        <!-- List of publications -->
-        <ul class="portfolio-list">
-          
-          
-          <li>
-            <!-- Penguin Phoenix Philosophy -->
-            <h3 class="text-center thumb-box">The Penguin Phoenix Philosophy</h3>
-            <img class="cred" src="assets/images/ian-parker-546258-unsplash.jpg">
-            <div class="caption">
-                <br>
-                <p>What bringing an old laptop back to life with Linux taught me about technology, coding, and myself.</p>
-                <form>
-                  <input class="btn btn-default" onclick=window.open('https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa') type="button" value="View Article">
-                  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@evanescentlight?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ian Parker"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ian Parker</span></a>
-                </form>
-              </div>
-          </li>
-          
            <li>
-            <!-- The Alphabet of Nations -->
-            <h3 class="text-center thumb-box">The Alphabet of Nations</h3>
-            <img class="cred" src="assets/images/alphabet_of_nations_opt_256.gif">
-            <div class="caption">
+              <!-- Meet the Mighty Five -->
+              <h3 class="text-center thumb-box">Meet the Mighty Five</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
                 <br>
-                <p>How to create an animated GIF from a sequence of scanned JPG images in the Linux Terminal with ImageMagick and Gifsicle.</p>
+                <p>I created this project during my Intro to Web Design course from Tech Talent South.</p>
+                <p>The site features HTML, CSS, jQuery, JavaScript, and Bootstrap for its functionality. Its content celebrates the music of some of my favorite Russian classical composers.</p>
                 <form>
-                  <input class="btn btn-default" onclick=window.open('article_alphabet.html') type="button" value="View Article">
+                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/') type="button" value="Launch Website">
+                  <input class="btn btn-default" onclick=window.open('https://www.techtalentsouth.com/') type="button" value="Visit TechTalentSouth">
                 </form>
               </div>
-          </li>
-          
-          <li>
-            <!-- #MayThe4th by the Numbers -->
-            <h3 class="text-center thumb-box">#MayThe4th by the Numbers</h3>
-            <img class="cred" src="assets/images/maythe4th.png">
-            <div class="caption">
+            </li>
+
+
+            <li>
+              <!-- Jocko Botcast -->
+              <h3 class="text-center thumb-box">JOCKO BOTCAST</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/jocko-botcast/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
                 <br>
-                <p>#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020</p>
-                <p>A tribute to the final season of <i>Star Wars: The Clone Wars</i>.</p>
+                <p>I built the JOCKO BOTCAST to complete my random quote generator assignment for freeCodeCamp. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.</p>
                 <form>
-                  <input class="btn btn-default" onclick=window.open('https://youtu.be/34CEoRHfwko') type="button" value="Watch Video">
-                  <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/CloneWarsDocs') type="button" value="GitHub repo">
+                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/jocko-botcast/') type="button" value="Launch Website">
+                  <input class="btn btn-default" onclick=window.open('http://jockopodcast.com/') type="button" value="Visit Jocko Podcast">
                 </form>
               </div>
-          </li>
+            </li>
 
-          <li>
-            <!-- #Grapevine Plots -->
-            <h3 class="text-center thumb-box">Grapevine Plots</h3>
-            <div class="thumbnail-container">
-              <div class="thumbnail">
-                <iframe src="https://www.grapevineplots.com/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+
+            <li>
+              <!-- Weather App -->
+              <h3 class="text-center thumb-box">Weather App</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/weather-app/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
               </div>
-            </div>
-            <div class="caption">
+              <div class="caption">
                 <br>
-                <p>A collection of articles celebrating wine through data exploration.</p>
+                <p>This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data. I decided to revamp this page in May 2018 to practice concepts I was learning in Udacty's Mobile Web Specialist Nanodegree program. You can access both versions of the site below.</p>
                 <form>
-                  <input class="btn btn-default" onclick=window.open('https://www.grapevineplots.com/') type="button" value="View Page">
+                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/weather-app/') type="button" value="Launch Updated Website">
                 </form>
               </div>
-          </li>
-
-        </ul>
-        
-      </article>
+            </li>
 
 
-
-      <article class="intro-box center" id="contact">
-        <h1 class="text-center">Contact</h1>
-        <hr>
-        <p>Feel free to drop me a line from this site. You can get in touch with me through the social media links below.</p>
-        <div class="row text-center">
-          <p onclick=window.open('https://www.freecodecamp.org/ewotawa') class="fab fa-free-code-camp fa-contact" role="button"></p>
-          
-          <p onclick=window.open('https://codepen.io/ewotawa/') class="fab fa-codepen fa-contact" role="button"></p>
-          
-          <p onclick=window.open('https://github.com/ewotawa') class="fab fa-github fa-contact" role="button"></p>
-          
-          <p onclick=window.open('https://www.linkedin.com/in/elizabethwotawa/') class="fab fa-linkedin-in fa-contact" role="button"></p>
-          
-          <p onclick=window.open('https://mobile.twitter.com/PenguinPhoenixE') class="fab fa-twitter fa-contact" role="button"></p>
-
-          <p onclick=window.open('https://medium.com/@ewotawa') class="fab fa-medium-m fa-contact" role="button"></p>
-
-          <!-- <p onclick=window.open('https://www.kaggle.com/ewotawa') class="fab fa-kaggle fa-contact" role="button"></p> -->
-
-          <p onclick=window.open('https://www.youtube.com/channel/UCvjRTRpbT3PZ0jwKd8aOiEg') class="fab fa-youtube fa-contact" role="button"></p>
-          
-          <!-- <p onclick=window.open('https://trailblazer.me/id/ewotawa') class="fab fa-salesforce fa-contact" role="button"></p> -->
-          
-          <p onclick=window.open('https://www.instagram.com/charlie_skeleton/') class="fab fa-instagram fa-contact" role="button"></p>
-          
-          <br>
-        </div>
-      </article>
-      
-    </section>
-    
+            <li>
+              <!-- Wikipedia App -->
+              <h3 class="text-center thumb-box">Wikipedia Search</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/wikipedia-search/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
+                <br>
+                <p>This site uses Javascript to render search results from the Wikipedia API.</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/wikipedia-search/') type="button" value="Launch Website">
+                  <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/PJyKOW/') type="button" value="Preview on CodePen">
+                </form>
+              </div>
+            </li>
 
 
-    <footer>
-      <div class="dark-row-footer">
-        <div class="container">
-          <p>A <span class="fa fa-coffee"></span>-fueled project by Elizabeth Wotawa <span class="fa fa-hand-spock-o"></span></p>
-          <br>
-          <p><small><i class="fa fa-copyright" aria-hidden="true"></i> 2017. All Rights Reserved.</small></p>
-        </div> <!--container-->
-      </div> <!-- row -->
-    </footer>
-    
-      <!-- JavaScript link -->
-  <script type="application/javascript" charset="utf-8" src="assets/js/idb.js"></script>
-  <script type="application/javascript" charset="utf-8" src="sw.js"></script>
-  <script type="application/javascript" charset="utf-8" src="assets/js/main.js"></script>
-  <script type="application/javascript" charset="utf-8" src="assets/js/indexController.js"></script>
+
+            <li>
+              <!-- 8-bit Mario -->
+              <h3 class="text-center thumb-box">8-Bit Mario Star Animation</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/eight-bit-mario/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
+                  <br>
+                  <p>A CSS-driven animation of 8-bit Mario with his star superpower.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/eight-bit-mario/') type="button" value="Launch Website">
+                    <input class="btn btn-default" onclick=window.open('https://codepen.io/ewotawa/full/aLGZRO/') type="button" value="Preview on CodePen">
+                  </form>
+              </div>
+            </li>
+
+
+
+
+            <li>
+              <!-- Charlie's Links -->
+              <h3 class="text-center thumb-box">Charlie's Links</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://ewotawa.github.io/link_in_bio/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
+                  <br>
+                  <p>Link in Bio for my Instagram Account.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/link_in_bio/') type="button" value="Launch Website">
+                  </form>
+                </div>
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+
+        <!-- portfolio -->
+        <article id="credentials" class="container dark-orange-row">
+
+          <h1 class="text-center full-width">Credentials, Scholarships, and Nanodegrees</h1>
+
+
+          <!-- List of portfolio items -->
+          <ul class="portfolio-list">
+
+            <li>
+              <!-- Microsoft Professional Program -->
+              <h3 class="text-center thumb-box">Microsoft Professional Program Data Science Certificate</h3>
+              <img class="cred" src="assets/images/mpp.png">
+              <div class="caption">
+                <br>
+                <p>During this program, offered by Microsoft on the edX platform, I explored data visualization and analysis in Excel and PowerBI, programming in R, and machine learning in Microsoft Azure ML.</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.edx.org/microsoft-professional-program-data-science') type="button" value="Learn More">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- Grow with Google -->
+              <h3 class="text-center thumb-box">Grow with Google Challenge</h3>
+              <img class="cred" src="assets/images/gwg.png">
+              <div class="caption">
+                <br>
+                <p>I participated in this Google-sponsored Udacity Scholarship challenge in the Intermediate Web Developer path. I was one of 25,000 participants selected to compete for one of 1,000 scholarships to the Udacity Mobile Web Specialist Nanodegrees. I earned the nanodegree scholarship in January 2018.</p>
+                <p>#GrowWithGoogle #GoogleUdacityScholars</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.udacity.com/grow-with-google') type="button" value="Learn More">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- Udacity Mobile Web Specialist Nanodegree -->
+              <h3 class="text-center thumb-box">Udacity Mobile Web Specialist Nanodegree</h3>
+              <img class="cred" src="assets/images/udacity_nanodegree.png">
+              <div class="caption">
+                <br>
+                <p>This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship.</p>
+                <p>#GrowWithGoogle #GoogleUdacityScholars</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://confirm.udacity.com/XZPKTTCA') type="button" value="View Certificate">
+                  <input class="btn btn-default" onclick=window.open('https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024') type="button" value="Learn More">
+                  <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/mws-restaurant-stage-1') type="button" value="Final Project">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- Udacity PyTorch Challenge -->
+              <h3 class="text-center thumb-box">Udacity PyTorch Challenge</h3>
+              <img class="cred" src="assets/images/pytorch.png">
+              <div class="caption">
+                <br>
+                <p>I participated in the PyTorch Scholarship Challenge, sponsored by Udacity and Facebook, from November 2018 to January 2019. I learned how to build, to train, and to deploy state-of-the-art deep learning models with PyTorch.</p>
+                <p>#PytorchUdacityScholar</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.udacity.com/facebook-pytorch-scholarship') type="button" value="Learn More">
+                  <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/udacity_pytorch_challenge') type="button" value="Final Project">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- Udacity Secure and Private AI Challenge -->
+              <h3 class="text-center thumb-box">Udacity Secure and Private AI Challenge</h3>
+              <img class="cred" src="assets/images/secure-private-ai.png">
+              <div class="caption">
+                <br>
+                <p>I participated in the Secure and Private AI Scholarship Challenge, sponsored by Udacity and Facebook, from May to August 2019. I learned how to use distributed private data with differential privacy, federated learning, and encrypted computation techniques. I was selected for one of 300 follow-up Nanodegree scholarships.</p>
+                <p>I was part of the lead team for Project T-Shirt. We encouraged students to generate images using AI and machine learning techniques, such as style transfer or GAN. Students voted on their favorites, and we printed the top two images on swag such as t-shirts and mugs. Proceeds will be donated to charity. Please see the gallery below for more detail.</p>
+                <p>#UdacityFacebookScholar #60DaysofUdacity</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.udacity.com/facebook-AI-scholarship') type="button" value="Learn More">
+                  <input class="btn btn-default" onclick=window.open('https://github.com/parthatom/GANonTshirtTutorial') type="button" value="Project T-Shirt">
+                  <input class="btn btn-default" onclick=window.open('https://ewotawa.github.io/spaic_tshirt_gallery/') type="button" value="Image Gallery">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- Microsoft Azure Fundamentals -->
+              <h3 class="text-center thumb-box">Microsoft Azure Fundamentals (AZ-900)</h3>
+              <img class="cred" src="assets/images/az900.JPG">
+              <div class="caption">
+                <br>
+                <p>I earned the Microsoft Azure Fundamentals certification by passing the AZ-900 exam in July 2019. This exam covers the following skill areas:</p>
+                <ul>
+                  <li>Azure</li>
+                  <li>Cloud Data</li>
+                  <li>Cloud Networking</li>
+                  <li>Cloud Security</li>
+                  <li>Cloud Services</li>
+                  <li>Cloud Storage</li>
+                  <li>Virtualization</li>
+                </ul>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.youracclaim.com/badges/c8e18533-7416-4e3f-b8c6-7c8e5c3c0cfc/public_url') type="button" value="View Credential">
+                  <input class="btn btn-default" onclick=window.open('https://www.microsoft.com/en-us/learning/exam-AZ-900.aspx') type="button" value="Learn More">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- IBM COBOL Programming with VSCode -->
+              <h3 class="text-center thumb-box">IBM COBOL Programming with VSCode</h3>
+              <img class="cred" src="assets/images/ibm-cobol-programming-with-vscode.png">
+              <div class="caption">
+                <br>
+                <p>As much fun as I've had learning new programming languages and platforms, I really enjoyed the chance to get back to the roots of computer science. I remember my dad sharing stories with me about working with COBOL and the Federal Reserve Bank of St. Louis mainframe system. This course offered a unique opportunity to see how those technologies are applied today.</p>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.youracclaim.com/badges/2ddbf15e-9e4a-41f5-86fc-362e6150a19a/public_url') type="button" value="View Credential">
+                  <input class="btn btn-default" onclick=window.open('https://www.coursera.org/learn/cobol-programming-vscode?') type="button" value="Learn More">
+                </form>
+              </div>
+            </li>
+
+            <li>
+              <!-- freeCodeCamp Responsive Web Design -->
+              <h3 class="text-center thumb-box">freeCodeCamp Responsive Web Design</h3>
+              <img class="cred" src="assets/images/fcc_responsive_web_design.png">
+              <div class="caption">
+                <br>
+                <p>This certificate represents about 300 hours of coursework, covering the following topics:</p>
+                <ul>
+                  <li>Basic HTML and HTML5</li>
+                  <li>Basic CSS</li>
+                  <li>Applied Visual Design</li>
+                  <li>Applied Accessibility</li>
+                  <li>Responsive Web Design Principles</li>
+                  <li>CSS Flexbox</li>
+                  <li>CSS Grid</li>
+                  <li>Responsive Web Design Projects</li>
+                </ul>
+                <form>
+                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org/certification/ewotawa/responsive-web-design') type="button" value="View Credential">
+                  <input class="btn btn-default" onclick=window.open('https://www.freecodecamp.org/') type="button" value="Learn More">
+                </form>
+              </div>
+            </li>
+
+          </ul>
+        </article>
+
+        <!--published content-->
+
+        <article id="publications" class="container dark-rose-row">
+          <h1 class="text-center full-width">Publications</h1>
+
+          <!-- List of publications -->
+          <ul class="portfolio-list">
+
+
+            <li>
+              <!-- Penguin Phoenix Philosophy -->
+              <h3 class="text-center thumb-box">The Penguin Phoenix Philosophy</h3>
+              <img class="cred" src="assets/images/ian-parker-546258-unsplash.jpg">
+              <div class="caption">
+                  <br>
+                  <p>What bringing an old laptop back to life with Linux taught me about technology, coding, and myself.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa') type="button" value="View Article">
+                    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@evanescentlight?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ian Parker"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Ian Parker</span></a>
+                  </form>
+                </div>
+            </li>
+
+             <li>
+              <!-- The Alphabet of Nations -->
+              <h3 class="text-center thumb-box">The Alphabet of Nations</h3>
+              <img class="cred" src="assets/images/alphabet_of_nations_opt_256.gif">
+              <div class="caption">
+                  <br>
+                  <p>How to create an animated GIF from a sequence of scanned JPG images in the Linux Terminal with ImageMagick and Gifsicle.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('article_alphabet.html') type="button" value="View Article">
+                  </form>
+                </div>
+            </li>
+
+            <li>
+              <!-- #MayThe4th by the Numbers -->
+              <h3 class="text-center thumb-box">#MayThe4th by the Numbers</h3>
+              <img class="cred" src="assets/images/maythe4th.png">
+              <div class="caption">
+                  <br>
+                  <p>#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020</p>
+                  <p>A tribute to the final season of <i>Star Wars: The Clone Wars</i>.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://youtu.be/34CEoRHfwko') type="button" value="Watch Video">
+                    <input class="btn btn-default" onclick=window.open('https://github.com/ewotawa/CloneWarsDocs') type="button" value="GitHub repo">
+                  </form>
+                </div>
+            </li>
+
+            <li>
+              <!-- #Grapevine Plots -->
+              <h3 class="text-center thumb-box">Grapevine Plots</h3>
+              <div class="thumbnail-container">
+                <div class="thumbnail">
+                  <iframe src="https://www.grapevineplots.com/" onload="this.style.opacity = 1" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="caption">
+                  <br>
+                  <p>A collection of articles celebrating wine through data exploration.</p>
+                  <form>
+                    <input class="btn btn-default" onclick=window.open('https://www.grapevineplots.com/') type="button" value="View Page">
+                  </form>
+                </div>
+            </li>
+
+          </ul>
+
+        </article>
+
+
+
+        <article class="intro-box center" id="contact">
+          <h1 class="text-center">Contact</h1>
+          <hr>
+          <p>Feel free to drop me a line from this site. You can get in touch with me through the social media links below.</p>
+          <div class="row text-center">
+            <p onclick=window.open('https://www.freecodecamp.org/ewotawa') class="fab fa-free-code-camp fa-contact" role="button"></p>
+
+            <p onclick=window.open('https://codepen.io/ewotawa/') class="fab fa-codepen fa-contact" role="button"></p>
+
+            <p onclick=window.open('https://github.com/ewotawa') class="fab fa-github fa-contact" role="button"></p>
+
+            <p onclick=window.open('https://www.linkedin.com/in/elizabethwotawa/') class="fab fa-linkedin-in fa-contact" role="button"></p>
+
+            <p onclick=window.open('https://mobile.twitter.com/PenguinPhoenixE') class="fab fa-twitter fa-contact" role="button"></p>
+
+            <p onclick=window.open('https://medium.com/@ewotawa') class="fab fa-medium-m fa-contact" role="button"></p>
+
+            <!-- <p onclick=window.open('https://www.kaggle.com/ewotawa') class="fab fa-kaggle fa-contact" role="button"></p> -->
+
+            <p onclick=window.open('https://www.youtube.com/channel/UCvjRTRpbT3PZ0jwKd8aOiEg') class="fab fa-youtube fa-contact" role="button"></p>
+
+            <!-- <p onclick=window.open('https://trailblazer.me/id/ewotawa') class="fab fa-salesforce fa-contact" role="button"></p> -->
+
+            <p onclick=window.open('https://www.instagram.com/charlie_skeleton/') class="fab fa-instagram fa-contact" role="button"></p>
+
+            <br>
+          </div>
+        </article>
+
+      </section>
+
+
+
+      <footer>
+        <div class="dark-row-footer">
+          <div class="container">
+            <p>A <span class="fa fa-coffee"></span>-fueled project by Elizabeth Wotawa <span class="fa fa-hand-spock-o"></span></p>
+            <br>
+            <p><small><i class="fa fa-copyright" aria-hidden="true"></i> 2017. All Rights Reserved.</small></p>
+          </div> <!--container-->
+        </div> <!-- row -->
+      </footer>
+
+        <!-- JavaScript link -->
+    <script type="application/javascript" charset="utf-8" src="assets/js/idb.js"></script>
+    <script type="application/javascript" charset="utf-8" src="sw.js"></script>
+    <script type="application/javascript" charset="utf-8" src="assets/js/main.js"></script>
+    <script type="application/javascript" charset="utf-8" src="assets/js/indexController.js"></script>
+
+    </div>
 
   </body>
-  
+
 </html>

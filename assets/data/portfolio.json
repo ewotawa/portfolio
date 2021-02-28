@@ -1,0 +1,264 @@
+{
+  "portfolio": [
+    {
+      "title": "Willie McGee",
+      "path": "https://ewotawa.github.io/willie-mcgee/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Tribute Page"
+      },
+      "description": "This site profiles Willie McGee, my favorite baseball player.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/willie-mcgee/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/willie-mcgee/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/WNwroBV"
+        }
+      ]
+    },
+    {
+      "title": "Will Tom Eat It?",
+      "path": "https://ewotawa.github.io/fcc-form/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Survey Form"
+      },
+      "description": "This site celebrates the Will Tom Eat It? segment on the tastytrade network.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-form/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/fcc-form/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/bGppvoP"
+        }
+      ]
+    },
+    {
+      "title": "Jack's Lanterns",
+      "path": "https://ewotawa.github.io/fcc-product-landing-page/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Product Landing Page"
+      },
+      "description": "Halloween is my favorite holiday. After creating this page, I want this company to exist, now.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-product-landing-page/"},
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/fcc-product-landing-page/"},
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/PoNNMGo"
+        }
+      ]
+    },
+    {
+      "title": "The SeaMonkey Project",
+      "path": "https://ewotawa.github.io/fcc-technical-doc/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Technical Documentation Page"
+      },
+      "description": "I've been a fan of The SeaMonkey Project since the application came pre-installed with LXLE, the distribution I installed on my first Linux laptop.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-technical-doc/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/fcc-technical-doc/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/ExKgRBq"
+        }
+      ]
+    },
+    {
+      "title": "Personal Portfolio Page",
+      "path": "https://ewotawa.github.io/fcc-portfolio-page/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Personal Portfolio Page"
+      },
+      "description": "I reimagined the Penguin Phoneix site to meet the requirements of this assignment. I have used this format for other projects, including Grapevine Plots and my Instagram link page.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-portfolio-page/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/fcc-portfolio-page/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/mdPOvBd"
+        }
+      ]
+    },
+    {
+      "title": "Meet the Mighty Five",
+      "path": "https://ewotawa.github.io/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "freecodecamp": {},
+      "description": "I created this project during my Intro to Web Design course from Tech Talent South. The site celebrates the music of some of my favorite Russian classical composers.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/ewotawa.github.io"
+        }
+      ]
+    },
+    {
+      "title": "JOCKO BOTCAST",
+      "path": "https://ewotawa.github.io/jocko-botcast/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "freecodecamp": {},
+      "description": "I built the JOCKO BOTCAST to complete my random quote generator assignment for a prior generation of freeCodeCamp curriculum. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/jocko-botcast/"},
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/jocko-botcast/"}
+      ]
+    },
+    {
+      "title": "Weather App",
+      "path": "https://ewotawa.github.io/weather-app/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "freecodecamp": {},
+      "description": "This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/weather-app/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/weather-app/"
+        }
+      ]
+    },
+    {
+      "title": "Wikipedia Search",
+      "path": "https://ewotawa.github.io/wikipedia-search/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "freecodecamp": {},
+      "description": "This site uses Javascript to render search results from the Wikipedia API.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/wikipedia-search/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/wikipedia-search/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/PJyKOW/"
+        }
+      ]
+    },
+    {
+      "title": "8-Bit Mario Star Animation",
+      "path": "https://ewotawa.github.io/eight-bit-mario/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {},
+      "description": "A CSS-driven animation of 8-bit Mario with his star superpower.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/eight-bit-mario/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/eight-bit-mario/"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/aLGZRO/"
+        }
+      ]
+    },
+    {
+      "title": "Charlie's Links",
+      "path": "https://ewotawa.github.io/link_in_bio/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "freecodecamp": {},
+      "description": "Charlie is a five-foot-tall skeleton who sat at my desk as my temp while I was working on a project at the office. Today, he's also my alter ego on Instagram.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/link_in_bio/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://ewotawa.github.io/link_in_bio/"
+        },
+        {
+          "text": "Instagram",
+          "icon": "fab fa-instagram",
+          "link": "https://www.instagram.com/charlie_skeleton/"
+        }
+      ]
+    }
+  ]
+}
