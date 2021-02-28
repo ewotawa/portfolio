@@ -14,3 +14,4 @@
 * https://developers.google.com/web/fundamentals/app-install-banners/
 * https://css-tricks.com/snippets/jquery/fit-iframe-to-content/
 * https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive/Add_to_home_screen
+* https://mediatemple.net/blog/design-creative/creating-implementing-icon-font-tutorial/
