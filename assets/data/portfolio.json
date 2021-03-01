@@ -1,5 +1,5 @@
-{
-  "portfolio": [
+portfolio =
+  [
     {
       "title": "Willie McGee",
       "path": "https://ewotawa.github.io/willie-mcgee/",
@@ -260,5 +260,4 @@
         }
       ]
     }
-  ]
-}
+  ];
