@@ -11,6 +11,7 @@ function addProject(portfolioParsed) {
     let id = portfolioParsed[project].id;
     let title = portfolioParsed[project].title;
     let path = portfolioParsed[project].path;
+    let image = portfolioParsed[project].image;
     let languages = portfolioParsed[project].languages;
     let freecodecamp = portfolioParsed[project].freecodecamp;
     let description = portfolioParsed[project].description;
@@ -29,24 +30,32 @@ function addProject(portfolioParsed) {
     let li = document.createElement('li');
     li.setAttribute('class', 'project-tile');
 
-    /* add a section for the thumbnail of the site */
-    let sectionThumb = document.createElement('section');
+    /* add a section for the thumbnail of the site or image as appropriate */
 
-    let divTC = document.createElement('div');
-    divTC.setAttribute('class', 'thumbnail-container');
+    if (image) {
+      let img = document.createElement('img');
+      img.setAttribute('class', 'cred');
+      img.setAttribute('src', image);
+      li.appendChild(img);
+    } else {
+      let sectionThumb = document.createElement('section');
 
-    let divT = document.createElement('div');
-    divT.setAttribute('class', 'thumbnail');
+      let divTC = document.createElement('div');
+      divTC.setAttribute('class', 'thumbnail-container');
 
-    let iframe = document.createElement('iframe');
-    iframe.setAttribute('src', path);
-    iframe.setAttribute('onload', 'this.style.opacity = 1');
-    iframe.setAttribute('frameborder', '0');
+      let divT = document.createElement('div');
+      divT.setAttribute('class', 'thumbnail');
 
-    divT.appendChild(iframe);
-    divTC.appendChild(divT);
-    sectionThumb.appendChild(divTC);
-    li.appendChild(sectionThumb);
+      let iframe = document.createElement('iframe');
+      iframe.setAttribute('src', path);
+      iframe.setAttribute('onload', 'this.style.opacity = 1');
+      iframe.setAttribute('frameborder', '0');
+
+      divT.appendChild(iframe);
+      divTC.appendChild(divT);
+      sectionThumb.appendChild(divTC);
+      li.appendChild(sectionThumb);
+    }
 
     /* add section for caption */
     let sectionCaption = document.createElement('section');
@@ -59,11 +68,14 @@ function addProject(portfolioParsed) {
 
     /* add icons for languages used */
     let artLang = document.createElement('article');
-    artLang.setAttribute('class', 'languages flex-box');
-    for (lang in languages) {
-      let h2Lang = document.createElement('h2');
-      h2Lang.setAttribute('class', languages[lang]);
-      artLang.appendChild(h2Lang);
+
+    if (languages) {
+      artLang.setAttribute('class', 'languages flex-box');
+      for (lang in languages) {
+        let h2Lang = document.createElement('h2');
+        h2Lang.setAttribute('class', languages[lang]);
+        artLang.appendChild(h2Lang);
+      }
     }
 
     /* add the freeCodeCamp element if appropriate and the description */

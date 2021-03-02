@@ -264,5 +264,72 @@ portfolio =
           "link": "https://www.instagram.com/charlie_skeleton/"
         }
       ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "Grapevine Plots",
+      "path": "https://www.grapevineplots.com/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "A collection of articles celebrating wine through exploratory data analysis, data visualization, statistics, and machine learning.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://www.grapevineplots.com/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/grapevine_plots"
+        }
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "#MayThe4th by the Numbers",
+      "path": "https://youtu.be/34CEoRHfwko",
+      "image": "assets/images/maythe4th.png",
+      "languages": ["icon-microsoftazure", "fab fa-r-project", "fab fa-youtube"],
+      "description": "#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020 A tribute to the final season of <i>Star Wars: The Clone Wars</i>.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://youtu.be/34CEoRHfwko"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/CloneWarsDocs"
+        }
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "The Alphabet of Nations",
+      "path": "article_alphabet.html",
+      "languages": ["fab fa-linux"],
+      "description": "How to create an animated GIF from a sequence of scanned JPG images in the Linux Terminal with ImageMagick and Gifsicle.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "'article_alphabet.html'"
+        },
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "The Penguin Phoenix Philosophy",
+      "path": "https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa",
+      "image": "assets/images/ian-parker-546258-unsplash.jpg",
+      "description": "What bringing an old laptop back to life with Linux taught me about technology, coding, and myself.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa"
+        },
+      ]
     }
   ];
