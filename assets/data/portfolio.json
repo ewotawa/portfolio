@@ -137,7 +137,6 @@ portfolio =
       "title": "Meet the Mighty Five",
       "path": "https://ewotawa.github.io/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "freecodecamp": {},
       "description": "I created this project during my Intro to Web Design course from Tech Talent South. The site celebrates the music of some of my favorite Russian classical composers.",
       "buttons": [
         {
@@ -156,7 +155,6 @@ portfolio =
       "title": "JOCKO BOTCAST",
       "path": "https://ewotawa.github.io/jocko-botcast/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "freecodecamp": {},
       "description": "I built the JOCKO BOTCAST to complete my random quote generator assignment for a prior generation of freeCodeCamp curriculum. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.",
       "buttons": [
         {
@@ -173,7 +171,6 @@ portfolio =
       "title": "Weather App",
       "path": "https://ewotawa.github.io/weather-app/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "freecodecamp": {},
       "description": "This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data.",
       "buttons": [
         {
@@ -192,7 +189,6 @@ portfolio =
       "title": "Wikipedia Search",
       "path": "https://ewotawa.github.io/wikipedia-search/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "freecodecamp": {},
       "description": "This site uses Javascript to render search results from the Wikipedia API.",
       "buttons": [
         {
@@ -216,7 +212,6 @@ portfolio =
       "title": "8-Bit Mario Star Animation",
       "path": "https://ewotawa.github.io/eight-bit-mario/",
       "languages": ["fab fa-html5", "fab fa-css3-alt"],
-      "freecodecamp": {},
       "description": "A CSS-driven animation of 8-bit Mario with his star superpower.",
       "buttons": [
         {
@@ -240,7 +235,6 @@ portfolio =
       "title": "Charlie's Links",
       "path": "https://ewotawa.github.io/link_in_bio/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "freecodecamp": {},
       "description": "Charlie is a five-foot-tall skeleton who sat at my desk as my temp while I was working on a project at the office. Today, he's also my alter ego on Instagram.",
       "buttons": [
         {

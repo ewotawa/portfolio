@@ -56,18 +56,52 @@ function addProject(portfolioParsed) {
     let headerText = document.createTextNode(title);
     header.appendChild(headerText);
 
+    /* add icons for languages used */
     let artLang = document.createElement('article');
     artLang.setAttribute('class', 'languages flex-box');
     for (lang in languages) {
-      console.log(languages[lang])
       let h2Lang = document.createElement('h2');
       h2Lang.setAttribute('class', languages[lang]);
       artLang.appendChild(h2Lang);
     }
 
+    /* add the freeCodeCamp element if appropriate and the description */
+    let artDesc = document.createElement('article');
+    artDesc.setAttribute('class', 'description');
+    if (freecodecamp) {
+      let h4 = document.createElement('h4');
+      h4.setAttribute('class', freecodecamp.icon);
+      let h4Text = document.createTextNode(' ' + freecodecamp.assignment);
+      h4.appendChild(h4Text);
+      artDesc.appendChild(h4);
+    }
+    let p = document.createElement('p');
+    let pText = document.createTextNode(description);
+    p.appendChild(pText);
+    artDesc.appendChild(p);
+
+    /* create link buttons */
+    let artButton = document.createElement('article');
+    artButton.setAttribute('id', 'links');
+    artButton.setAttribute('class', 'flex-box');
+    for (button in buttons) {
+      let bp = document.createElement('p');
+      bp.setAttribute('class', 'flex-item');
+      bp.setAttribute('onclick', 'window.open(' + buttons[button].link + ')');
+      let i = document.createElement('i');
+      i.setAttribute('class', buttons[button].icon);
+      bp.appendChild(i);
+      let bpText = document.createTextNode(' ' + buttons[button].text);
+      bp.appendChild(bpText);
+      artButton.appendChild(bp);
+    }
+
     sectionCaption.appendChild(header);
     sectionCaption.appendChild(artLang);
+    sectionCaption.appendChild(artDesc);
+    sectionCaption.appendChild(artButton);
     li.appendChild(sectionCaption);
+
 
 
 
