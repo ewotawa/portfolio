@@ -92,7 +92,7 @@ ul {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   min-width: 310px;
   margin-top: 15%;
   margin-bottom: 15%;
@@ -107,7 +107,7 @@ ul {
   color: white;
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 90%;
   min-width: 310px;
   margin-top: 15%;
   margin-bottom: 15%;
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .cred {
-  width: 100%;
+  width: 30%;
 }
 
 
@@ -375,38 +375,6 @@ h1, h2, h3, h4, h5 {
 /* Media Queries */
 
 
-@media screen and (max-width: 400px) {
-  .intro-box {
-    width: 100%;
-    margin-top: 100px;
-  }
-
- .dark-row {
-    width: auto;
-  }
-
-  .thumbnail {
-    position: relative;
-    -ms-zoom: 0.15;
-    -moz-transform: scale(0.15);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.15);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.15);
-    -webkit-transform-origin: 0 0;
-  }
-
-  .thumbnail-container {
-    width: calc(1200px * 0.15);  /* original 1440 */
-    height: calc(900px * 0.15);
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,1);
-  }
-
-}
-
 @media screen and (max-width: 1200px) {
   .project-tile {
     display: flex;
@@ -443,6 +411,46 @@ h1, h2, h3, h4, h5 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .cred {
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .intro-box {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+ .dark-row {
+    width: auto;
+  }
+
+  .thumbnail {
+    position: relative;
+    -ms-zoom: 0.15;
+    -moz-transform: scale(0.15);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.15);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.15);
+    -webkit-transform-origin: 0 0;
+  }
+
+  .thumbnail-container {
+    width: calc(1200px * 0.15);  /* original 1440 */
+    height: calc(900px * 0.15);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,1);
+  }
+
+  .cred {
+    width: 90%;
   }
 
 }

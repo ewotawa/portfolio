@@ -8,6 +8,7 @@ const portfolioParsed = JSON.parse(portfolioStr);
 
 function addProject(portfolioParsed) {
   for (project in portfolioParsed) {
+    let id = portfolioParsed[project].id;
     let title = portfolioParsed[project].title;
     let path = portfolioParsed[project].path;
     let languages = portfolioParsed[project].languages;
@@ -106,7 +107,7 @@ function addProject(portfolioParsed) {
 
 
     /* add to the DOM */
-    let container = document.getElementById('portfolio-list');
+    let container = document.getElementById(id);
     container.appendChild(li);
 
   }
