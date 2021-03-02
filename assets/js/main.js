@@ -100,7 +100,7 @@ function addProject(portfolioParsed) {
     for (button in buttons) {
       let bp = document.createElement('p');
       bp.setAttribute('class', 'flex-item');
-      bp.setAttribute('onclick', 'window.open(' + buttons[button].link + ')');
+      bp.setAttribute('onclick', 'window.open(\'' + buttons[button].link + '\')');
       let i = document.createElement('i');
       i.setAttribute('class', buttons[button].icon);
       bp.appendChild(i);
