@@ -1,0 +1,461 @@
+portfolio =
+  [
+    {
+      "id": "portfolio-list",
+      "title": "Willie McGee",
+      "path": "https://ewotawa.github.io/willie-mcgee/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Tribute Page"
+      },
+      "description": "This site profiles Willie McGee, my favorite baseball player.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/willie-mcgee/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/willie-mcgee"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/WNwroBV"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Will Tom Eat It?",
+      "path": "https://ewotawa.github.io/fcc-form/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Survey Form"
+      },
+      "description": "This site celebrates the Will Tom Eat It? segment on the tastytrade network.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-form/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/fcc-form"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/bGppvoP"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Jack's Lanterns",
+      "path": "https://ewotawa.github.io/fcc-product-landing-page/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Product Landing Page"
+      },
+      "description": "Halloween is my favorite holiday. After creating this page, I want this company to exist, now.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-product-landing-page/"},
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/fcc-product-landing-page"},
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/PoNNMGo"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "The SeaMonkey Project",
+      "path": "https://ewotawa.github.io/fcc-technical-doc/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Technical Documentation Page"
+      },
+      "description": "I've been a fan of The SeaMonkey Project since the application came pre-installed with LXLE, the distribution I installed on my first Linux laptop.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-technical-doc/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/fcc-technical-doc"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/ExKgRBq"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Personal Portfolio Page",
+      "path": "https://ewotawa.github.io/fcc-portfolio-page/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "freecodecamp": {
+        "icon": "fab fa-free-code-camp",
+        "assignment": "Build a Personal Portfolio Page"
+      },
+      "description": "I reimagined the Penguin Phoneix site to meet the requirements of this assignment. I have used this format for other projects, including Grapevine Plots and my Instagram link page.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/fcc-portfolio-page/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/fcc-portfolio-page"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/mdPOvBd"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Meet the Mighty Five",
+      "path": "https://ewotawa.github.io/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "I created this project during my Intro to Web Design course from Tech Talent South. The site celebrates the music of some of my favorite Russian classical composers.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/ewotawa.github.io"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "JOCKO BOTCAST",
+      "path": "https://ewotawa.github.io/jocko-botcast/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "I built the JOCKO BOTCAST to complete my random quote generator assignment for a prior generation of freeCodeCamp curriculum. It pays tribute to the JOCKO PODCAST and sources its content from the podcast's episodes.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/jocko-botcast/"},
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/jocko-botcast"}
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Wikipedia Search",
+      "path": "https://ewotawa.github.io/wikipedia-search/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "This site uses Javascript to render search results from the Wikipedia API.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/wikipedia-search/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/wikipedia-search"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/PJyKOW/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "8-Bit Mario Star Animation",
+      "path": "https://ewotawa.github.io/eight-bit-mario/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "description": "A CSS-driven animation of 8-bit Mario with his star superpower.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/eight-bit-mario/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/eight-bit-mario"
+        },
+        {
+          "text": "CodePen",
+          "icon": "fab fa-codepen",
+          "link": "https://codepen.io/ewotawa/full/aLGZRO/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
+      "title": "Charlie's Links",
+      "path": "https://ewotawa.github.io/link_in_bio/",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "Charlie is a five-foot-tall skeleton who sat at my desk as my temp while I was working on a project at the office. Today, he's also my alter ego on Instagram.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/link_in_bio/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/link_in_bio"
+        },
+        {
+          "text": "Instagram",
+          "icon": "fab fa-instagram",
+          "link": "https://www.instagram.com/charlie_skeleton/"
+        }
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "Grapevine Plots",
+      "path": "https://www.grapevineplots.com/",
+      "languages": ["fab fa-python", "fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "description": "A collection of articles celebrating wine through exploratory data analysis, data visualization, statistics, and machine learning.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://www.grapevineplots.com/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/grapevine_plots"
+        }
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "#MayThe4th by the Numbers",
+      "path": "https://youtu.be/34CEoRHfwko",
+      "image": "assets/images/maythe4th.png",
+      "languages": ["icon-microsoftazure", "fab fa-r-project", "fab fa-youtube"],
+      "description": "#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020 A tribute to the final season of <i>Star Wars: The Clone Wars</i>.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://youtu.be/34CEoRHfwko"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/CloneWarsDocs"
+        }
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "The Alphabet of Nations",
+      "path": "article_alphabet.html",
+      "languages": ["fab fa-linux", "fab fa-html5", "fab fa-css3-alt"],
+      "description": "How to create an animated GIF from a sequence of scanned JPG images in the Linux Terminal with ImageMagick and Gifsicle.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "article_alphabet.html"
+        },
+      ]
+    },
+    {
+      "id": "pubs-list",
+      "title": "The Penguin Phoenix Philosophy",
+      "path": "https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa",
+      "image": "assets/images/ian-parker-546258-unsplash.jpg",
+      "description": "What bringing an old laptop back to life with Linux taught me about technology, coding, and myself.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa"
+        }
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "freeCodeCamp Responsive Web Design",
+      "image": "assets/images/fcc_responsive_web_design.png",
+      "description": "This certificate represents about 300 hours of coursework, covering the following topics: Basic HTML and HTML5, Basic CSS, Applied Visual Design, Applied Accessibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.freecodecamp.org/certification/ewotawa/responsive-web-design"
+        },
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "Udacity Mobile Web Specialist Nanodegree",
+      "image": "assets/images/udacity_nanodegree.png",
+      "description": "This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship. #GrowWithGoogle #GoogleUdacityScholars",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-gulp", "fab fa-node"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://confirm.udacity.com/XZPKTTCA"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/mws-restaurant-stage-1"
+        },
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "Grow with Google Challenge",
+      "image": "assets/images/gwg.png",
+      "description": "This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship. #GrowWithGoogle #GoogleUdacityScholars",
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/grow-with-google"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Microsoft Professional Program Data Science Certificate",
+      "image": "assets/images/mpp.png",
+      "description": "During this program, offered by Microsoft on the edX platform, I explored data visualization and analysis in Excel and PowerBI, programming in R, and machine learning in Microsoft Azure ML.",
+      "languages": ["icon-microsoftazure", "fab fa-r-project"],
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.edx.org/microsoft-professional-program-data-science"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Udacity PyTorch Challenge",
+      "image": "assets/images/pytorch.png",
+      "description": "I participated in the PyTorch Scholarship Challenge, sponsored by Udacity and Facebook, from November 2018 to January 2019. I learned how to build, to train, and to deploy state-of-the-art deep learning models with PyTorch. #PytorchUdacityScholar",
+      "languages": ["fab fa-python"],
+      "buttons": [
+        {
+          "text": "PyTorch Scholarship",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/facebook-pytorch-scholarship"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/udacity_pytorch_challenge"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Udacity Secure and Private AI Challenge",
+      "image": "assets/images/secure-private-ai.png",
+      "description": "I participated in the Secure and Private AI Scholarship Challenge, sponsored by Udacity and Facebook, from May to August 2019. I learned how to use distributed private data with differential privacy, federated learning, and encrypted computation techniques. I was selected for one of 300 follow-up Nanodegree scholarships. I was part of the lead team for Project T-Shirt. We encouraged students to generate images using AI and machine learning techniques, such as style transfer or GAN. Students voted on their favorites, and we printed the top two images on swag such as t-shirts and mugs. Proceeds will be donated to charity. Please see the gallery below for more detail. #UdacityFacebookScholar #60DaysofUdacity",
+      "languages": ["fab fa-python", "fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/facebook-AI-scholarship"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/parthatom/GANonTshirtTutorial"
+        },
+        {
+          "text": "Project T-Shirt",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/spaic_tshirt_gallery/"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Microsoft Azure Fundamentals (AZ-900)",
+      "image": "assets/images/az900.JPG",
+      "description": "I earned the Microsoft Azure Fundamentals certification by passing the AZ-900 exam in July 2019. This exam covers the following skill areas: Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization",
+      "languages": ["icon-microsoftazure"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.youracclaim.com/badges/c8e18533-7416-4e3f-b8c6-7c8e5c3c0cfc/public_url"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.microsoft.com/en-us/learning/exam-AZ-900.aspx"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "IBM COBOL Programming with VSCode",
+      "image": "assets/images/ibm-cobol-programming-with-vscode.png",
+      "description": "As much fun as I've had learning new programming languages and platforms, I really enjoyed the chance to get back to the roots of computer science. I remember my dad sharing stories with me about working with COBOL and the Federal Reserve Bank of St. Louis mainframe system. This course offered a unique opportunity to see how those technologies are applied today.",
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.youracclaim.com/badges/2ddbf15e-9e4a-41f5-86fc-362e6150a19a/public_url"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.coursera.org/learn/cobol-programming-vscode?"
+        }
+      ]
+    }
+  ];
