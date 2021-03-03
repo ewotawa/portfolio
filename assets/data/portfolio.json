@@ -295,7 +295,7 @@ portfolio =
         {
           "text": "Link",
           "icon": "fas fa-link",
-          "link": "'article_alphabet.html'"
+          "link": "article_alphabet.html"
         },
       ]
     },
@@ -426,6 +426,7 @@ portfolio =
       "title": "Microsoft Azure Fundamentals (AZ-900)",
       "image": "assets/images/az900.JPG",
       "description": "I earned the Microsoft Azure Fundamentals certification by passing the AZ-900 exam in July 2019. This exam covers the following skill areas: Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization",
+      "languages": ["icon-microsoftazure"],
       "buttons": [
         {
           "text": "Certificate",
