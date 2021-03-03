@@ -176,25 +176,6 @@ portfolio =
     },
     {
       "id": "portfolio-list",
-      "title": "Weather App",
-      "path": "https://ewotawa.github.io/weather-app/",
-      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-      "description": "This app relies on the Census Bureau's geolocation API to convert a US street address to latitude and longitude coordinates, which then are fed into the FCC Weather API to deliver local weather data.",
-      "buttons": [
-        {
-          "text": "Link",
-          "icon": "fas fa-link",
-          "link": "https://ewotawa.github.io/weather-app/"
-        },
-        {
-          "text": "GitHub",
-          "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/weather-app/"
-        }
-      ]
-    },
-    {
-      "id": "portfolio-list",
       "title": "Wikipedia Search",
       "path": "https://ewotawa.github.io/wikipedia-search/",
       "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
