@@ -19,7 +19,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/willie-mcgee/"
+          "link": "https://github.com/ewotawa/willie-mcgee"
         },
         {
           "text": "CodePen",
@@ -47,7 +47,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/fcc-form/"
+          "link": "https://github.com/ewotawa/fcc-form"
         },
         {
           "text": "CodePen",
@@ -74,7 +74,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/fcc-product-landing-page/"},
+          "link": "https://github.com/ewotawa/fcc-product-landing-page"},
         {
           "text": "CodePen",
           "icon": "fab fa-codepen",
@@ -101,7 +101,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/fcc-technical-doc/"
+          "link": "https://github.com/ewotawa/fcc-technical-doc"
         },
         {
           "text": "CodePen",
@@ -129,7 +129,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/fcc-portfolio-page/"
+          "link": "https://github.com/ewotawa/fcc-portfolio-page"
         },
         {
           "text": "CodePen",
@@ -171,7 +171,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/jocko-botcast/"}
+          "link": "https://github.com/ewotawa/jocko-botcast"}
       ]
     },
     {
@@ -232,7 +232,7 @@ portfolio =
         {
           "text": "GitHub",
           "icon": "fab fa-github",
-          "link": "https://ewotawa.github.io/eight-bit-mario/"
+          "link": "https://github.com/ewotawa/eight-bit-mario"
         },
         {
           "text": "CodePen",
@@ -329,6 +329,150 @@ portfolio =
           "text": "Link",
           "icon": "fas fa-link",
           "link": "https://medium.freecodecamp.org/the-penguin-phoenix-philosophy-8a8dcda178aa"
+        }
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "freeCodeCamp Responsive Web Design",
+      "image": "assets/images/fcc_responsive_web_design.png",
+      "description": "This certificate represents about 300 hours of coursework, covering the following topics: Basic HTML and HTML5, Basic CSS, Applied Visual Design, Applied Accessibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects",
+      "languages": ["fab fa-html5", "fab fa-css3-alt"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.freecodecamp.org/certification/ewotawa/responsive-web-design"
+        },
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "Udacity Mobile Web Specialist Nanodegree",
+      "image": "assets/images/udacity_nanodegree.png",
+      "description": "This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship. #GrowWithGoogle #GoogleUdacityScholars",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-gulp", "fab fa-node"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://confirm.udacity.com/XZPKTTCA"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/mws-restaurant-stage-1"
+        },
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "Grow with Google Challenge",
+      "image": "assets/images/gwg.png",
+      "description": "This Nanodegree program introduces students to responsive design and to offline-first features for web sites, such as service workers and IndexedDB. I completed this Nanodegree in October 2018 on the Grow with Google Scholarship. #GrowWithGoogle #GoogleUdacityScholars",
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/grow-with-google"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Microsoft Professional Program Data Science Certificate",
+      "image": "assets/images/mpp.png",
+      "description": "During this program, offered by Microsoft on the edX platform, I explored data visualization and analysis in Excel and PowerBI, programming in R, and machine learning in Microsoft Azure ML.",
+      "languages": ["icon-microsoftazure", "fab fa-r-project"],
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.edx.org/microsoft-professional-program-data-science"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Udacity PyTorch Challenge",
+      "image": "assets/images/pytorch.png",
+      "description": "I participated in the PyTorch Scholarship Challenge, sponsored by Udacity and Facebook, from November 2018 to January 2019. I learned how to build, to train, and to deploy state-of-the-art deep learning models with PyTorch. #PytorchUdacityScholar",
+      "languages": ["fab fa-python"],
+      "buttons": [
+        {
+          "text": "PyTorch Scholarship",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/facebook-pytorch-scholarship"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/udacity_pytorch_challenge"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Udacity Secure and Private AI Challenge",
+      "image": "assets/images/secure-private-ai.png",
+      "description": "I participated in the Secure and Private AI Scholarship Challenge, sponsored by Udacity and Facebook, from May to August 2019. I learned how to use distributed private data with differential privacy, federated learning, and encrypted computation techniques. I was selected for one of 300 follow-up Nanodegree scholarships. I was part of the lead team for Project T-Shirt. We encouraged students to generate images using AI and machine learning techniques, such as style transfer or GAN. Students voted on their favorites, and we printed the top two images on swag such as t-shirts and mugs. Proceeds will be donated to charity. Please see the gallery below for more detail. #UdacityFacebookScholar #60DaysofUdacity",
+      "languages": ["fab fa-python", "fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/facebook-AI-scholarship"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/parthatom/GANonTshirtTutorial"
+        },
+        {
+          "text": "Project T-Shirt",
+          "icon": "fas fa-link",
+          "link": "https://ewotawa.github.io/spaic_tshirt_gallery/"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "Microsoft Azure Fundamentals (AZ-900)",
+      "image": "assets/images/az900.JPG",
+      "description": "I earned the Microsoft Azure Fundamentals certification by passing the AZ-900 exam in July 2019. This exam covers the following skill areas: Azure, Cloud Data, Cloud Networking, Cloud Security, Cloud Services, Cloud Storage, Virtualization",
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.youracclaim.com/badges/c8e18533-7416-4e3f-b8c6-7c8e5c3c0cfc/public_url"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.microsoft.com/en-us/learning/exam-AZ-900.aspx"
+        }
+      ]
+    },
+    {
+      "id": "datascience-list",
+      "title": "IBM COBOL Programming with VSCode",
+      "image": "assets/images/ibm-cobol-programming-with-vscode.png",
+      "description": "As much fun as I've had learning new programming languages and platforms, I really enjoyed the chance to get back to the roots of computer science. I remember my dad sharing stories with me about working with COBOL and the Federal Reserve Bank of St. Louis mainframe system. This course offered a unique opportunity to see how those technologies are applied today.",
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.youracclaim.com/badges/2ddbf15e-9e4a-41f5-86fc-362e6150a19a/public_url"
+        },
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.coursera.org/learn/cobol-programming-vscode?"
         }
       ]
     }
