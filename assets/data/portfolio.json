@@ -365,6 +365,20 @@ portfolio =
       ]
     },
     {
+      "id": "fullstack-list",
+      "title": "Python and Flask Bootcamp: Create Websites using Flask",
+      "image": "assets/images/udemy-python-flask.jpg",
+      "description": "I enrolled in this course for two reasons. First, I wanted to learn how to deploy Python-based machine-learning models to the Web, and Flask is a popular framework for such applications. Second, I want to build my skills on full-stack frameworks, and Flask was an approachable introduction to working with databases and deploying to Heroku.",
+      "languages": ["fab fa-python", "icon-flask", "fab fa-html5", "fab fa-bootstrap"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.udemy.com/certificate/UC-a7ffb917-691f-43d9-8f9f-6b9b7464ba3f/"
+        }
+      ]
+    },
+    {
       "id": "datascience-list",
       "title": "Microsoft Professional Program Data Science Certificate",
       "image": "assets/images/mpp.png",
