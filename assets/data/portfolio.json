@@ -271,7 +271,7 @@ portfolio =
       "path": "https://youtu.be/34CEoRHfwko",
       "image": "assets/images/maythe4th.png",
       "languages": ["icon-microsoftazure", "fab fa-r-project", "fab fa-youtube"],
-      "description": "#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020 A tribute to the final season of <i>Star Wars: The Clone Wars</i>.",
+      "description": "#MayThe4th By the Numbers: An Analysis of Twitter data celebrating Star Wars Day 2020 A tribute to the final season of Star Wars: The Clone Wars.",
       "buttons": [
         {
           "text": "Link",
