@@ -2,6 +2,25 @@ portfolio =
   [
     {
       "id": "portfolio-list",
+      "title": "Wine Classifier App",
+      "path": "https://top100-wineclassifier.herokuapp.com/",
+      "languages": ["fab fa-python", "icon-flask", "fab fa-html5", "fab fa-css3-alt"],
+      "description": "This site hosts a Support Vector Machine (SVM) machine learning model. The user enters a wine review, and the model classifies the wine as one of 5 styles: Dessert & Fortified, Red, Rosé or Rosado, Sparkling, or White. You can read more about this project in the Grapevine Plots article series.",
+      "buttons": [
+        {
+          "text": "Link",
+          "icon": "fas fa-link",
+          "link": "https://top100-wineclassifier.herokuapp.com/"
+        },
+        {
+          "text": "GitHub",
+          "icon": "fab fa-github",
+          "link": "https://github.com/ewotawa/top100-wine-classifier"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-list",
       "title": "Willie McGee",
       "path": "https://ewotawa.github.io/willie-mcgee/",
       "languages": ["fab fa-html5", "fab fa-css3-alt"],
