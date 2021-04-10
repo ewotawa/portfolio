@@ -334,6 +334,20 @@ portfolio =
     },
     {
       "id": "fullstack-list",
+      "title": "Python and Flask Bootcamp: Create Websites using Flask",
+      "image": "assets/images/udemy-python-flask.jpg",
+      "description": "I enrolled in this course for two reasons. First, I wanted to learn how to deploy Python-based machine-learning models to the Web, and Flask is a popular framework for such applications. Second, I want to build my skills on full-stack frameworks, and Flask was an approachable introduction to working with databases and deploying to Heroku.",
+      "languages": ["fab fa-python", "icon-flask", "fab fa-html5", "fab fa-bootstrap"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.udemy.com/certificate/UC-a7ffb917-691f-43d9-8f9f-6b9b7464ba3f/"
+        }
+      ]
+    },
+    {
+      "id": "fullstack-list",
       "title": "freeCodeCamp Responsive Web Design",
       "image": "assets/images/fcc_responsive_web_design.png",
       "description": "This certificate represents about 300 hours of coursework, covering the following topics: Basic HTML and HTML5, Basic CSS, Applied Visual Design, Applied Accessibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects",
@@ -380,20 +394,6 @@ portfolio =
           "text": "Learn More",
           "icon": "fas fa-link",
           "link": "https://www.udacity.com/grow-with-google"
-        }
-      ]
-    },
-    {
-      "id": "fullstack-list",
-      "title": "Python and Flask Bootcamp: Create Websites using Flask",
-      "image": "assets/images/udemy-python-flask.jpg",
-      "description": "I enrolled in this course for two reasons. First, I wanted to learn how to deploy Python-based machine-learning models to the Web, and Flask is a popular framework for such applications. Second, I want to build my skills on full-stack frameworks, and Flask was an approachable introduction to working with databases and deploying to Heroku.",
-      "languages": ["fab fa-python", "icon-flask", "fab fa-html5", "fab fa-bootstrap"],
-      "buttons": [
-        {
-          "text": "Certificate",
-          "icon": "fas fa-certificate",
-          "link": "https://www.udemy.com/certificate/UC-a7ffb917-691f-43d9-8f9f-6b9b7464ba3f/"
         }
       ]
     },
