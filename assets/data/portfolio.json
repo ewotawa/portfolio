@@ -334,6 +334,19 @@ portfolio =
     },
     {
       "id": "fullstack-list",
+      "title": "freeCodeCamp JavaScript Algorithms and Data Structures",
+      "image": "assets/images/JavaScript_Algorithms_and_Data_Structures_Wotawa.png",
+      "description": "This certificate represents about 300 hours of coursework, covering the following topics: Basic JavaScript, ES6, Regular Expressions, Debugging, Basic Data Structures, Basic Algorithm Scripting, Object Oriented Programming, Functional Programming, Intermediate Algorithm Scripting, JavaScript Algorithms and Data Structures Projects",
+      "languages": ["fab fa-js-square"],
+      "buttons": [
+        {
+          "text": "Certificate",
+          "icon": "fas fa-certificate",
+          "link": "https://www.freecodecamp.org/certification/ewotawa/javascript-algorithms-and-data-structures"
+        },
+      ]
+    },{
+      "id": "fullstack-list",
       "title": "Python and Flask Bootcamp: Create Websites using Flask",
       "image": "assets/images/udemy-python-flask.jpg",
       "description": "I enrolled in this course for two reasons. First, I wanted to learn how to deploy Python-based machine-learning models to the Web, and Flask is a popular framework for such applications. Second, I want to build my skills on full-stack frameworks, and Flask was an approachable introduction to working with databases and deploying to Heroku.",
