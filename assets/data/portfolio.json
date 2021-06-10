@@ -334,6 +334,34 @@ portfolio =
     },
     {
       "id": "fullstack-list",
+      "title": "Practicum by Yandex Web Developer Bootcamp",
+      "image": "assets/images/yandex_practicum_announcement.jpeg",
+      "description": "Thanks to a scholarship from Women Who Code, I am participating in a 10-month web developer program from Practicum by Yandex. The curriculum includes Advanced HTML and CSS, Adaptive Web Design, Basic and Applied JavaScript, Creating an Interface with React, Back-End Basics for Web Developers, and a Final Project.",
+      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-react"],
+      "buttons": [
+        {
+          "text": "Announcement",
+          "icon": "fab fa-yandex-international",
+          "link": "https://www.linkedin.com/posts/practicum-by-yandex_today-with-the-help-of-women-who-code-four-activity-6806244200271663104-OVs0"
+        },
+      ]
+    },
+    {
+      "id": "fullstack-list",
+      "title": "Udacity SUSE Cloud Native Foundations Scholarship",
+      "image": "assets/images/udacity_suse_scholarship.jpeg",
+      "description": "I received a scholarship from SUSE to complete Udacity's Cloud Native Foundations Program. The course covers how to structure, package, and release an application to a Kubernetes cluster, while using an automated CI/CD pipeline. The top 300 performers earn a scholarship to Udacity's full Cloud Native Application Architecture program at no cost.",
+      "languages": ["fab fa-suse"],
+      "buttons": [
+        {
+          "text": "Learn More",
+          "icon": "fas fa-link",
+          "link": "https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship"
+        }
+      ]
+    },
+    {
+      "id": "fullstack-list",
       "title": "freeCodeCamp JavaScript Algorithms and Data Structures",
       "image": "assets/images/JavaScript_Algorithms_and_Data_Structures_Wotawa.png",
       "description": "This certificate represents about 300 hours of coursework, covering the following topics: Basic JavaScript, ES6, Regular Expressions, Debugging, Basic Data Structures, Basic Algorithm Scripting, Object Oriented Programming, Functional Programming, Intermediate Algorithm Scripting, JavaScript Algorithms and Data Structures Projects",
@@ -345,7 +373,8 @@ portfolio =
           "link": "https://www.freecodecamp.org/certification/ewotawa/javascript-algorithms-and-data-structures"
         },
       ]
-    },{
+    },
+    {
       "id": "fullstack-list",
       "title": "Python and Flask Bootcamp: Create Websites using Flask",
       "image": "assets/images/udemy-python-flask.jpg",
