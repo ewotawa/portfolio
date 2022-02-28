@@ -334,20 +334,6 @@ portfolio =
     },
     {
       "id": "fullstack-list",
-      "title": "Practicum by Yandex Web Developer Bootcamp",
-      "image": "assets/images/yandex_practicum_announcement.jpeg",
-      "description": "Thanks to a scholarship from Women Who Code, I started a 10-month web developer program from Practicum by Yandex. The curriculum includes Advanced HTML and CSS, Adaptive Web Design, Basic and Applied JavaScript, Creating an Interface with React, Back-End Basics for Web Developers, and a Final Project. I was unable to complete the program due to personal circumstances, but the experience much improved my understanding of CSS and the BEM methodology.",
-      "languages": ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fab fa-react"],
-      "buttons": [
-        {
-          "text": "Announcement",
-          "icon": "fab fa-yandex-international",
-          "link": "https://www.linkedin.com/posts/practicum-by-yandex_today-with-the-help-of-women-who-code-four-activity-6806244200271663104-OVs0"
-        },
-      ]
-    },
-    {
-      "id": "fullstack-list",
       "title": "Udacity SUSE Cloud Native Foundations Scholarship",
       "image": "assets/images/udacity_suse_scholarship.jpeg",
       "description": "I received a scholarship from SUSE to complete Udacity's Cloud Native Foundations Program. The course covers how to structure, package, and release an application to a Kubernetes cluster, while using an automated CI/CD pipeline. The top 300 performers earn a scholarship to Udacity's full Cloud Native Application Architecture program at no cost.",
